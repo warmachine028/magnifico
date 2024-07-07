@@ -1,8 +1,8 @@
 import { SecondaryButton } from '../components'
-
+import { Container } from '../assets'
 const ProblemSolved = () => {
 	return (
-		<section className="container px-2 mx-auto mt-48 bg-my-image bg-no-repeat w-full h-[550px] bg-center rounded-3xl bg-cover flex text-white items-center">
+		<section style={{backgroundImage: `url('${Container}')`}} className="container px-2 mx-auto mt-48 bg-my-image bg-no-repeat w-full h-[550px] bg-center rounded-3xl bg-cover flex text-white items-center">
 			<div className="w-1/2"></div>
 			<div className="w-1/2 flex flex-col gap-6">
 				<div className="flex flex-col gap-4">

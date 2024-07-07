@@ -4,7 +4,7 @@ import { SecondaryButton } from '../components'
 const Tools = () => {
 	return (
 		<section id="tools" className="flex container px-2 mx-auto mt-52 gap-72">
-			<div>
+			<div className=''>
 				<h1 className="text-[62px] leading-[80px] font-extrabold">
 					Get all the tools your
 					<br/>team needs
