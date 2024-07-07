@@ -5,7 +5,7 @@ const App = () => {
 		<>
 			<Navbar />
 			<AppRouter />
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	)
 }
