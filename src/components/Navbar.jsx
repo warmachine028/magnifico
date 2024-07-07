@@ -15,9 +15,11 @@ const Navbar = () => {
 					</div>
 					<ul className="hidden lg:flex ml-14 space-x-12 font-medium tracking-wide">
 						{navLinks.map((link) => (
-							<li className="flex items-center gap-2" key={link}>
-								{link}
-								<box-icon name="chevron-down" />
+							<li key={link}>
+								<button className="flex items-center gap-2">
+									{link}
+									<box-icon name="chevron-down" />
+								</button>
 							</li>
 						))}
 						<li className="flex items-center">
@@ -31,9 +33,9 @@ const Navbar = () => {
 							<box-icon name="right-arrow-alt" color="#ffffff" />
 						</button>
 					</div>
-					<div className='sm:hidden'>
+					<button className="sm:hidden">
 						<box-icon style={{ width: '38px', height: 100 }} name="menu"></box-icon>
-					</div>
+					</button>
 				</div>
 			</div>
 		</nav>
