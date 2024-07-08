@@ -3,7 +3,7 @@ import { EnvelopeIcon } from '../assets'
 
 const Hero = () => {
 	return (
-		<section id="hero" className="flex flex-col sm:flex-row sm:container sm:px-2 mx-auto sm:py-16 sm:my-20 my-20 justify-center bg-no-repeat bg-none bg-white" style={{ backgroundImage: `url('${Stars}')`, backgroundPosition: 'right 30px bottom -8px' }}>
+		<section id="hero" className="flex flex-col sm:flex-row sm:container sm:px-2 mx-auto sm:py-16 my-20 justify-center bg-no-repeat bg-none bg-white" style={{ backgroundImage: `url('${Stars}')`, backgroundPosition: 'right 30px bottom -8px' }}>
 			<div className="sm:w-1/2 w-full justify-center sm:mx-10 flex flex-col px-7">
 				<div className="sm:w-[550px]">
 					<h1 className="text-[72px] leading-[80px] font-extrabold hidden sm:block">
