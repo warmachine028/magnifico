@@ -19,7 +19,7 @@ const Footer = () => {
 					<Link to="#">Contact</Link>
 				</div>
 			</div>
-			<div className="flex flex-col sm:hidden ml-4">
+			<div className="flex flex-col sm:hidden mx-4">
 				<strong className="mt-10 text-lg">magnifico</strong>
 				<h6 className="mt-2 text-gray-800">@ 2023. All rights reserved.</h6>
 				<div className="flex justify-between text-gray-800 my-6">
