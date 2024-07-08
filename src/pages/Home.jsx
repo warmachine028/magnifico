@@ -8,7 +8,7 @@ const Home = () => {
             <TimeWorking />
             <Tools/>
 			<ProblemSolved />
-			{/* <ImproveWorkflow /> */}
+			<ImproveWorkflow />
 			{/* <Community /> */}
 		</main>
 	)
