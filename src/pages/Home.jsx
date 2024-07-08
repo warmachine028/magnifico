@@ -9,7 +9,7 @@ const Home = () => {
             <Tools/>
 			<ProblemSolved />
 			<ImproveWorkflow />
-			{/* <Community /> */}
+			<Community />
 		</main>
 	)
 }
