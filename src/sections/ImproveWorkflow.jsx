@@ -1,8 +1,8 @@
-import {Video2} from "../assets"
-import { SecondaryButton } from "../components";
+import { Video2 } from '../assets'
+import { SecondaryButton } from '../components'
 
 const ImproveWorkflow = () => {
-  return (
+	return (
 		<div section id="improveworkflow" className="container sm:px-2 mx-auto sm:mt-52 mt-20 sm:gap-72 flex sm:flex-row flex-col px-5">
 			<div className="sm:w-1/2 w-full">
 				<h1 className="sm:text-6xl text-5xl font-bold sm:leading-[80px] sm:font-extrabold  sm:my-5 my-4">Improve workflow</h1>
@@ -24,7 +24,7 @@ const ImproveWorkflow = () => {
 				<img src={Video2} />
 			</div>
 		</div>
-  )
+	)
 }
 
 export default ImproveWorkflow
