@@ -2,16 +2,16 @@ import {Video2} from "../assets"
 import { SecondaryButton } from "../components";
 
 const ImproveWorkflow = () => {
-	const workflows= ["Research","Plan","map" ]
+	const workflows= ["Research","Plan","Design" ]
   return (
 		<div className="container px-2 mx-auto mt-52 gap-72 flex">
 			<div>
 				<h1 className="text-[62px] leading-[80px] font-extrabold">
 					Improve workflow
 				</h1>
-				<div className="flex">
+				<div className="flex w-full">
 					{workflows.map((workflow, i) => (
-						<button className="border h-30 w-50 flex items-center p-5" key={i}>
+						<button className="border flex items-center justify-center p-3 w-1/3" key={i}>
 							{workflow}
 						</button>
 					))}

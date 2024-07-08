@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 
 const Footer = () => {
-	const footerLinks = ['Terms', 'Privacy', 'Support', 'About', 'Resources', 'Contact']
+	const footerLinks = ['Terms', 'Privacy', 'Support', 'About']
 	return (
 		<footer className="container px-2 mx-auto sm:py-20">
 			<div className="sm:flex justify-between hidden">
 				<h6>
-					<strong className="text-lg">magnifico</strong>
+					<strong>magnifico</strong>
 					<span className="text-gray-800"> @ 2023. All rights reserved.</span>
 				</h6>
 				<div className="flex gap-5 text-gray-800">
@@ -15,10 +15,12 @@ const Footer = () => {
 							{footerLink}
 						</Link>
 					))}
+					<Link to="#">Resources</Link>
+					<Link to="#">Contact</Link>
 				</div>
 			</div>
-			<div className="flex flex-col sm:hidden ml-5">
-				<strong className="mt-10 text-lg">magnifico</strong>
+			<div className="flex flex-col sm:hidden ml-4">
+				<strong className="mt-10">magnifico</strong>
 				<h6 className="mt-2 text-gray-800">@ 2023. All rights reserved.</h6>
 				<div className="flex gap-3 text-gray-800 my-6">
 					{footerLinks.map((footerLink, i) => (
@@ -26,6 +28,7 @@ const Footer = () => {
 							{footerLink}
 						</Link>
 					))}
+					<Link to="#">Contact</Link>
 				</div>
 			</div>
 		</footer>
