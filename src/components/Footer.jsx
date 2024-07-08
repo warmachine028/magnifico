@@ -9,7 +9,7 @@ const Footer = () => {
 					<strong className="text-lg">magnifico</strong>
 					<span className="text-gray-800"> @ 2023. All rights reserved.</span>
 				</h6>
-				<div className="flex gap-10 text-gray-800">
+				<div className="flex gap-5 text-gray-800">
 					{footerLinks.map((footerLink, i) => (
 						<Link to="#" key={i}>
 							{footerLink}
