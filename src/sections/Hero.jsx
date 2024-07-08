@@ -21,7 +21,7 @@ const Hero = () => {
 
 					<form className="mt-5 mb-5 flex gap-3">
 						<input placeholder="Enter work email" className="border pl-12 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg bg-no-repeat hidden sm:block" style={{ backgroundImage: `url('${EnvelopeIcon}')`, backgroundPosition: '15px' }} />
-						<input placeholder="Enter work email" className="border pl-4 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg sm:hidden"/>
+						<input placeholder="Enter work email" className="border pl-4 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg sm:hidden" />
 						<button className="bg-blue-600 py-2 px-5 rounded-md text-white flex gap-2 items-center sm:w-64 w-1/2 justify-center " type="submit">
 							Sign Up Free
 							<box-icon name="right-arrow-alt" color="#ffffff" />
