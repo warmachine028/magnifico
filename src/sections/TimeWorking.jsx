@@ -5,9 +5,9 @@ const TimeWorking = () => {
 	return (
 		<section className="flex container sm:px-2 mx-auto sm:my-52 flex-col-reverse gap-16 sm:flex-row relative my-28">
 			<div className="flex sm:gap-4 gap-2 sm:w-1/2 justify-center w-full">
-				<img className="z-10 sm:h-96 h-72  mt-20" src={image1} alt="woman" />
-				<img className="z-10 sm:h-96 h-72" src={image2} alt="group" />
-				<img className="z-10 sm:h-96 h-72 mt-12 sm:mt-14" src={image3} alt="girl" />
+				<img className="z-10 sm:h-96 h-64  mt-20" src={image1} alt="woman" />
+				<img className="z-10 sm:h-96 h-64" src={image2} alt="group" />
+				<img className="z-10 sm:h-96 h-64 mt-12 sm:mt-14" src={image3} alt="girl" />
 				<img className="absolute left-0 bottom-32" src={Stars} alt="stars" />
 			</div>
 			<div className="sm:w-1/2 sm:px-10 px-7">
