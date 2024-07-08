@@ -6,8 +6,8 @@ const ProblemSolved = () => {
 			<div className="sm:w-1/2 hidden sm:block" />
 			<div className="sm:w-1/2 sm:pr-24 flex flex-col gap-9 px-7">
 				<div className="flex flex-col gap-7">
-					<h1 className="sm:text-6xl text-5xl font-bold  sm:leading-[80px] sm:font-extrabold">Problems come and get solved with ease</h1>
-					<p className="leading-8 max-w-xl sm:text-xl">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+					<h1 className="text-4xl xs:text-5xl  sm:text-6xl  font-bold  sm:leading-[80px] sm:font-extrabold">Problems come and get solved with ease</h1>
+					<p className="sm:leading-8 xs:leading-7 leading-6 max-w-xl sm:text-xl text-sm xs:text-md pr-2 xs:pr-0">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
 				</div>
 				<SecondaryButton arrow color="white">
 					Improve workflow

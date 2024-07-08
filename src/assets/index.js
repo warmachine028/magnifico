@@ -11,3 +11,4 @@ export { default as Stars } from './stars.png'
 export { default as Video1 } from './video1.png'
 export { default as Video2 } from './video2.png'
 export { default as Waves } from './waves.png'
+export {default as Mountain} from "./mountain.jpeg"

@@ -1,7 +1,8 @@
+import { PaymentHero } from "../sections"
 
 const Payment = () => {
   return (
-    <div>Payment</div>
+    <PaymentHero/>
   )
 }
 
