@@ -20,9 +20,9 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="flex flex-col sm:hidden ml-4">
-				<strong className="mt-10">magnifico</strong>
+				<strong className="mt-10 text-lg">magnifico</strong>
 				<h6 className="mt-2 text-gray-800">@ 2023. All rights reserved.</h6>
-				<div className="flex space-x-9 text-gray-800 my-6">
+				<div className="flex justify-between text-gray-800 my-6">
 					{footerLinks.map((footerLink, i) => (
 						<Link to="#" key={i}>
 							{footerLink}
