@@ -1,6 +1,6 @@
 import { DinersClub, MasterCard, Visa } from '../assets'
 
-const ModeofPayment = () => {
+const PaymentMode = () => {
 	return (
 		<section id="modeofpayment" className="pt-10">
 			<h6 className="mt-10 text-xl font-medium">Select your mode of payment</h6>
@@ -65,4 +65,4 @@ const ModeofPayment = () => {
 	)
 }
 
-export default ModeofPayment
+export default PaymentMode
