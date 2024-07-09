@@ -1,12 +1,10 @@
-import { DinersClub, MasterCard, Visa } from "../assets"
+import { DinersClub, MasterCard, Visa } from '../assets'
 
 const ModeofPayment = () => {
-  return (
-		<section id="modeofpayment" className="font-['Open_Sans'] pt-10">
-			<div>
-				<h6 className="mt-10 text-xl font-medium">Select your mode of payment</h6>
-				<p className="py-5 font-light text-gray-700 pb-8">Payments with Tickete are secure and encrypted.</p>
-			</div>
+	return (
+		<section id="modeofpayment" className="pt-10">
+			<h6 className="mt-10 text-xl font-medium">Select your mode of payment</h6>
+			<p className="py-5 font-light text-gray-700 pb-8">Payments with Tickete are secure and encrypted.</p>
 			<div className="border border-slate-500  rounded-lg py-5 px-7">
 				<div className="flex items-center">
 					<div className="flex gap-4 items-center">
@@ -56,10 +54,15 @@ const ModeofPayment = () => {
 					<box-icon name="lock" type="solid" color="#ffffff"></box-icon>
 					Confirm & Pay
 				</button>
-          </div>
-          
+			</div>
+			<div className="border border-gray-300 p-4 my-5 bg-gray-100 rounded-md">
+				<div className="flex items-center border h-8 w-20">
+					<box-icon name="apple" type="logo" color="#776e6e"></box-icon>
+					<p className="text-gray-700">Pay</p>
+				</div>
+			</div>
 		</section>
-  )
+	)
 }
 
 export default ModeofPayment

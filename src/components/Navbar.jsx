@@ -5,7 +5,7 @@ import SecondaryButton from './SecondaryButton'
 const Navbar = () => {
 	const navLinks = ['Products', 'Solutions', 'Services', 'Help Center']
 	return (
-		<nav className="sticky top-0 z-50 py-3 border-b h-20 flex items-center bg-white">
+		<nav className="sticky top-0 z-50 py-3 border-b h-20 flex items-center font-['Roboto'] bg-white">
 			<div className="container sm:px-2 mx-auto relative text-sm px-7">
 				<div className="flex justify-between items-center">
 					<div className="flex items-center flex-shrink-0">

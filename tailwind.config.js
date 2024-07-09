@@ -7,7 +7,12 @@ export default {
 			xs: '475px',
 			...defaultTheme.screens,
 		},
-		extend: {},
+		extend: {
+			fontFamily: {
+				roboto: ['Roboto'],
+				opensans: ['Open_Sans'],
+			},
+		},
 	},
 	plugins: [],
 }
