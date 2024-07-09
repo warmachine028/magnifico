@@ -8,9 +8,7 @@ const Payment = () => {
 				<PaymentHero />
 				<hr />
 			</div>
-			<aside className="w-1/3 max-w-sm px-5">
 				<DestinationCard />
-			</aside>
 		</main>
 	)
 }

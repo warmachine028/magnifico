@@ -3,7 +3,7 @@ import { Mountain } from '../assets'
 
 const DestinationCard = () => {
 	return (
-		<div className="flex flex-col border ">
+		<aside className="flex flex-col border max-w-sm px-5">
 			<div className="flex flex-col p-2">
 				<img className="w-[352px] h-[198px] rounded-lg" src={Mountain} alt="" />
 			</div>
@@ -28,7 +28,7 @@ const DestinationCard = () => {
 					<p className="pl-6">Your saved price</p>
 				</div>
 			</div>
-		</div>
+		</aside>
 	)
 }
 
