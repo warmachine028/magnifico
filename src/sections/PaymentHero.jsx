@@ -8,11 +8,11 @@ const PaymentHero = () => {
 					<h6 className="font-light text-gray-600">Tickets can be cancelled by 13th December, 2022.</h6>
 				</div>
 				<div>
-					<h6 className="mt-10 text-xl">Enter your details</h6>
+					<h6 className="mt-10 text-xl font-medium">Enter your details</h6>
 					<p className="py-5 font-light text-gray-700">We'll be sending your tickets to the details below. Booking for a friend? Add their details.</p>
 				</div>
 				<form className="pt-8">
-					<input className="border rounded-lg pl-4 w-full pt-3 pb-3 required:*:text-"  placeholder="First Name" type="text" />
+					<input className="border rounded-lg pl-4 w-full pt-3 pb-3 required:before:*" placeholder="First Name" type="text" />
 					<div className="flex flex-row pt-4 gap-4">
 						<input className="border rounded-lg pl-4 p-3 w-1/2" placeholder="Country code" />
 						<input className="border rounded-lg pl-4 p-3 w-1/2" placeholder="Phone number" />

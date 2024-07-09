@@ -1,5 +1,5 @@
 import { DestinationCard } from '../components'
-import { PaymentHero } from '../sections'
+import { AdditionalInformation, PaymentHero } from '../sections'
 
 const Payment = () => {
 	return (
@@ -7,8 +7,10 @@ const Payment = () => {
 			<div className="mx-10 w-2/3">
 				<PaymentHero />
 				<hr />
+				<AdditionalInformation />
+				<hr />
 			</div>
-				<DestinationCard />
+			<DestinationCard />
 		</main>
 	)
 }
