@@ -1,5 +1,5 @@
 import { DestinationCard } from '../components'
-import { AdditionalInformation, PaymentHero } from '../sections'
+import { AdditionalInformation, ModeofPayment, PaymentHero } from '../sections'
 
 const Payment = () => {
 	return (
@@ -8,7 +8,8 @@ const Payment = () => {
 				<PaymentHero />
 				<hr />
 				<AdditionalInformation />
-				<hr />
+        <hr />
+        <ModeofPayment/>
 			</div>
 			<DestinationCard />
 		</main>
