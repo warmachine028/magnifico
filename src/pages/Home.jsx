@@ -2,11 +2,11 @@ import { Community, Hero, ImproveWorkflow, ProblemSolved, TimeWorking, Tools } f
 
 const Home = () => {
 	return (
-		<main>
+		<main className="font-['Roboto']">
 			<Hero />
-			<hr className='hidden sm:block'/>
-            <TimeWorking />
-            <Tools/>
+			<hr className="hidden sm:block" />
+			<TimeWorking />
+			<Tools />
 			<ProblemSolved />
 			<ImproveWorkflow />
 			<Community />
