@@ -2,7 +2,7 @@ import React from 'react'
 import { Mountain } from '../assets'
 
 const DestinationCard = () => {
-  return (
+	return (
 		<div className="flex flex-col border ">
 			<div className="flex flex-col p-2">
 				<img className="w-[352px] h-[198px] rounded-lg" src={Mountain} alt="" />
@@ -29,7 +29,7 @@ const DestinationCard = () => {
 				</div>
 			</div>
 		</div>
-  )
+	)
 }
 
 export default DestinationCard
