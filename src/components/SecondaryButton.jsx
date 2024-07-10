@@ -1,3 +1,5 @@
+import { FaArrowRight } from 'react-icons/fa'
+
 const colors = { white: '#ffffff', blue: '#2563eb' }
 
 const SecondaryButton = ({ color, arrow, children }) => {
@@ -6,7 +8,7 @@ const SecondaryButton = ({ color, arrow, children }) => {
 	return (
 		<button className="flex items-center mr-4 gap-2">
 			<p className={textColor}>{children}</p>
-			{arrow && <box-icon name="right-arrow-alt" color={iconColor} />}
+			{arrow && <FaArrowRight color={iconColor} />}
 		</button>
 	)
 }

@@ -10,7 +10,7 @@ export default {
 		extend: {
 			fontFamily: {
 				roboto: ['Roboto'],
-				opensans: ['Open_Sans'],
+				sans: ['Open Sans'],
 			},
 		},
 	},

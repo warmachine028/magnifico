@@ -1,3 +1,4 @@
+import { FaArrowRight } from 'react-icons/fa'
 import { Shells, SmartFinder, ArtVenue, Waves, Video1, Stars } from '../assets'
 import { EnvelopeIcon } from '../assets'
 
@@ -20,11 +21,11 @@ const Hero = () => {
 					<p className="text-gray-500 mt-8 xs:text-xl text-sm leading-7 sm:hidden">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
 
 					<form className="mt-5 mb-5 flex gap-3">
-						<input placeholder="Enter work email" className="border pl-12 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg bg-no-repeat hidden sm:block" type="email" autoComplete style={{ backgroundImage: `url('${EnvelopeIcon}')`, backgroundPosition: '15px' }} />
-						<input placeholder="Enter work email" type="email" autoComplete className="border pl-4 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg sm:hidden text-sm xs:text-md" />
+						<input placeholder="Enter work email" className="border pl-12 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg bg-no-repeat hidden sm:block" type="email" autoComplete="email" style={{ backgroundImage: `url('${EnvelopeIcon}')`, backgroundPosition: '15px' }} />
+						<input placeholder="Enter work email" type="email" autoComplete="email" className="border pl-4 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg sm:hidden text-sm xs:text-md" />
 						<button className="bg-blue-600 py-2 px-5 rounded-md text-white flex gap-2 items-center sm:w-64 w-1/2 justify-center text-sm xs:text-md" type="submit">
 							Sign Up Free
-							<box-icon name="right-arrow-alt" color="#ffffff" />
+							<FaArrowRight />
 						</button>
 					</form>
 					<div className=" bg-slate-100 rounded-lg p-3 grid grid-cols-2 sm:grid-cols-4 items-end justify-items-center gap-5 my-5">
