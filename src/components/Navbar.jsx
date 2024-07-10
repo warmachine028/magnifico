@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
-import 'boxicons'
 import SecondaryButton from './SecondaryButton'
+import { IoIosArrowDown } from 'react-icons/io'
+import { FaArrowRight } from 'react-icons/fa'
 
 const Navbar = () => {
 	const navLinks = ['Products', 'Solutions', 'Services', 'Help Center']
@@ -18,7 +19,7 @@ const Navbar = () => {
 							<li key={link}>
 								<button className="flex items-center gap-2">
 									{link}
-									<box-icon name="chevron-down" />
+									<IoIosArrowDown />
 								</button>
 							</li>
 						))}
@@ -30,7 +31,7 @@ const Navbar = () => {
 						<SecondaryButton color="blue">Log In</SecondaryButton>
 						<button className="bg-blue-600 py-2 px-5 rounded-md text-white flex items-center gap-2">
 							Sign Up Free
-							<box-icon name="right-arrow-alt" color="#ffffff" />
+							<FaArrowRight/>
 						</button>
 					</div>
 					<button className="sm:hidden">

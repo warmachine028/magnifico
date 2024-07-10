@@ -1,4 +1,10 @@
+import { IoMdCard } from 'react-icons/io'
 import { DinersClub, MasterCard, Visa } from '../assets'
+import { PiPiggyBankFill } from 'react-icons/pi'
+import { BsInfoCircleFill } from 'react-icons/bs'
+import { MdLock } from 'react-icons/md'
+import { Link } from 'react-router-dom'
+import { FaApple } from 'react-icons/fa'
 
 const PaymentMode = () => {
 	return (
@@ -9,7 +15,7 @@ const PaymentMode = () => {
 				<div className="flex items-center">
 					<div className="flex gap-4 items-center">
 						<div className="flex items-center justify-center w-10 h-8 border rounded-md">
-							<box-icon name="credit-card" color="#555a62"></box-icon>
+							<IoMdCard className="text-gray-600" />
 						</div>
 						<h6 className="text-xl font-medium">Credit & debit card</h6>
 					</div>
@@ -39,25 +45,35 @@ const PaymentMode = () => {
 				<div className="flex justify-between items-center">
 					<h6>Total Payable: $XXX</h6>
 					<div className="bg-green-200 w-40 rounded-xl flex items-center justify-center">
-						<box-icon name="money" color="#15803d gap-2"></box-icon>
+						<PiPiggyBankFill className="text-green-600" />
 						<p className="text-green-700 text-sm p-1">You saved price</p>
 					</div>
 				</div>
 				<div className="flex items-center gap-2 py-4">
-					<p className="text-gray-700 underline decoration-gray-400 text-sm">You will be charged in AFD</p>
-					<box-icon name="info-circle" color="#374151"></box-icon>
+					<Link to="#" className="text-gray-700 underline decoration-gray-400 text-sm">
+						You will be charged in AFD
+					</Link>
+					<BsInfoCircleFill color="gray" className="cursor-pointer" />
 				</div>
 				<p className="text-gray-500">
-					By clicking “confirm & pay”, you agree to <span className="text-blue-700 underline decoration-blue-600">Tickete’s general terms and conditions </span>and <span className="text-blue-700 underline decoration-blue-600">cancellation policy</span>.
+					By clicking “confirm & pay”, you agree to{' '}
+					<Link to="#" className="text-blue-700 underline decoration-blue-600">
+						Ticket’s general terms and conditions{' '}
+					</Link>
+					and{' '}
+					<Link to="#" className="text-blue-700 underline decoration-blue-600">
+						cancellation policy
+					</Link>
+					.
 				</p>
 				<button className="bg-blue-600 my-6 rounded-lg text-white gap-2 flex items-center justify-center font-semibold text-lg sm:pl-10 sm:pr-10 sm:pt-3 sm:pb-3 pl-11 pr-11 pt-4 pb-4 shadow-md">
-					<box-icon name="lock" type="solid" color="#ffffff"></box-icon>
+					<MdLock />
 					Confirm & Pay
 				</button>
 			</div>
 			<div className="border border-gray-300 p-4 my-5 bg-gray-100 rounded-md">
 				<div className="flex items-center border h-8 w-20">
-					<box-icon name="apple" type="logo" color="#776e6e"></box-icon>
+					<FaApple />
 					<p className="text-gray-700">Pay</p>
 				</div>
 			</div>
