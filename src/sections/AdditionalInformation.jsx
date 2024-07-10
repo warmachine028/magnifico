@@ -1,27 +1,27 @@
-import { IoIosArrowDown } from "react-icons/io"
+import { IoIosArrowDown } from 'react-icons/io'
 
 const AdditionalInformation = () => {
 	return (
-		<section id="aditionalinformation" className="font-['Open_Sans'] pt-10 my-8">
+		<section id="aditionalinformation" className="my-8 pt-10">
 			<h6 className="mt-10 text-3xl font-medium">Additional information</h6>
-			<p className="py-5 font-light text-xl text-gray-700">We need a few more details to complete your reservation.</p>
+			<p className="py-5 text-xl font-light text-gray-700">We need a few more details to complete your reservation.</p>
 			<form className="flex flex-col gap-4 pt-8">
 				<div className="flex flex-row gap-4">
-					<input className="ring-1 ring-gray-300 rounded-2xl px-4 w-1/2 h-14 placeholder:after:content-['*'] after:ml-0.5 after:text-red-500" placeholder="Input label" required type="text" />
-					<div className="w-1/2 relative">
-						<div className="absolute inset-y-0 end-0 flex items-center pe-3.5 pointer-events-none">
+					<input className="h-14 w-1/2 rounded-2xl px-4 ring-1 ring-gray-300 after:ml-0.5 after:text-red-500 placeholder:after:content-['*']" placeholder="Input label" required type="text" />
+					<div className="relative w-1/2">
+						<div className="pointer-events-none absolute inset-y-0 end-0 flex items-center pe-3.5">
 							<IoIosArrowDown color="gray" />
 						</div>
-						<select className="ring-1 text-gray-400 ring-gray-300 rounded-2xl px-4 w-full h-14 placeholder:after:content-['*'] after:ml-0.5 after:text-red-500 appearance-none " required defaultValue="Select" type="text">
+						<select className="h-14 w-full appearance-none rounded-2xl px-4 text-gray-400 ring-1 ring-gray-300 after:ml-0.5 after:text-red-500 placeholder:after:content-['*']" required defaultValue="Select" type="text">
 							<option disabled>Select</option>
 						</select>
 					</div>
 				</div>
-				<div className="w-full relative">
-					<div className="absolute inset-y-0 end-0 flex items-center pe-3.5 pointer-events-none">
+				<div className="relative w-full">
+					<div className="pointer-events-none absolute inset-y-0 end-0 flex items-center pe-3.5">
 						<IoIosArrowDown color="gray" />
 					</div>
-					<select className="ring-1 text-gray-400 ring-gray-300 rounded-2xl appearance-none px-4 w-full h-14 placeholder:after:content-['*'] after:ml-0.5 after:text-red-500" required type="text" defaultValue="Multiselect">
+					<select className="h-14 w-full appearance-none rounded-2xl px-4 text-gray-400 ring-1 ring-gray-300 after:ml-0.5 after:text-red-500 placeholder:after:content-['*']" required type="text" defaultValue="Multiselect">
 						<option disabled>Multiselect</option>
 					</select>
 				</div>

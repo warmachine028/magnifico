@@ -1,16 +1,19 @@
 import { DestinationCard } from '../components'
-import { PaymentHero, AdditionalInformation, PaymentMode } from '../sections'
+import { PaymentHero, AdditionalInformation, PaymentMode, TotalPayable } from '../sections'
 
 const Payment = () => {
 	return (
-		<main className="container mx-auto px-14 font-['Open_Sans']  py-16 flex flex-row">
+		<main className="container mx-auto flex flex-row px-14 py-16 font-sans">
 			<div className="flex">
-                <div className="mx-10 w-2/3">
+				<div className="mx-10 w-2/3">
 					<PaymentHero />
 					<hr />
 					<AdditionalInformation />
 					<hr />
 					<PaymentMode />
+					<hr />
+					<TotalPayable />
+					<hr />
 				</div>
 				<DestinationCard />
 			</div>

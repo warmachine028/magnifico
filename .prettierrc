@@ -6,5 +6,6 @@
 	"requireConfig": false,
 	"useTabs": true,
 	"bracketSpacing": true,
-	"semi": false
+	"semi": false,
+	"plugins": ["prettier-plugin-tailwindcss"]
 }
