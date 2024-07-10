@@ -1,6 +1,6 @@
 import { PiPiggyBankFill, PiTicketFill } from 'react-icons/pi'
 import { Mountain } from '../assets'
-import { FaCalendar, FaStar } from 'react-icons/fa'
+import { FaCalendar, FaPlus, FaStar } from 'react-icons/fa'
 import { HiClock } from 'react-icons/hi'
 import { FaUserGroup } from 'react-icons/fa6'
 import { BsInfoCircleFill } from 'react-icons/bs'
@@ -38,11 +38,11 @@ const DestinationCard = () => {
 					<h6 className="font-semibold">5 guests</h6>
 				</div>
 				<hr className="border-dashed" />
-				<div className="flex gap-32 my-6">
+				<div className="flex items-center justify-between my-6">
 					<Link to="#" className="underline decoration-gray-400 text-gray-700">
 						View payment summary
 					</Link>
-					<box-icon name="plus"></box-icon>
+					<FaPlus className='text-gray-700' />
 				</div>
 				<hr />
 				<div className="flex items-center justify-between">
@@ -54,7 +54,7 @@ const DestinationCard = () => {
 					<p className="text-green-700 text-sm p-1">You saved price</p>
 				</div>
 				<div className="flex items-center gap-2 py-4">
-					<p className="text-gray-700 underline decoration-gray-400 text-sm">You will be charged in AFD</p>
+					<p className="text-gray-700 underline decoration-gray-400 text-sm">You will be charged in AED</p>
 					<BsInfoCircleFill color="gray" className="cursor-pointer" />
 				</div>
 			</div>

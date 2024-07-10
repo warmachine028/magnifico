@@ -9,8 +9,8 @@ import { FaApple } from 'react-icons/fa'
 const PaymentMode = () => {
 	return (
 		<section id="modeofpayment" className="pt-10">
-			<h6 className="mt-10 text-xl font-medium">Select your mode of payment</h6>
-			<p className="py-5 font-light text-gray-700 pb-8">Payments with Tickete are secure and encrypted.</p>
+			<h6 className="mt-10 text-3xl font-medium">Select your mode of payment</h6>
+			<p className="py-5 font-light text-xl text-gray-700">Payments with Tickets are secure and encrypted.</p>
 			<div className="border border-slate-500  rounded-lg py-5 px-7">
 				<div className="flex items-center">
 					<div className="flex gap-4 items-center">
@@ -32,26 +32,33 @@ const PaymentMode = () => {
 					</div>
 				</div>
 				<div>
-					<form className="flex flex-row pt-4 gap-4">
-						<input className="border rounded-lg pl-4 p-3 w-1/2" placeholder="Name on card" />
-						<input className="border rounded-lg pl-4 p-3 w-1/2" placeholder="Card number" />
+					<form className="flex flex-col pt-4 gap-4">
+						<div className="flex flex-row pt-4 gap-4">
+							<input className="ring-1 ring-gray-400 rounded-2xl px-4 w-1/2 h-14 placeholder:after:content-['*'] after:ml-0.5 after:text-red-500" placeholder="Name on card" required autoComplete="cc-name" type="text" />
+							<div className="relative w-1/2">
+								<div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+									<IoMdCard className="text-gray-600 " />
+								</div>
+								<input type="email" className="w-full ps-10 text-gray-400  ring-1 ring-gray-400 rounded-2xl px-4 h-14" placeholder="Card Number" autoComplete="cc-number" required />
+							</div>
+						</div>
+						<div className="flex flex-row pt-4 gap-4">
+							<input className="ring-1 ring-gray-400 rounded-2xl px-4 w-1/2 h-14 placeholder:after:content-['*'] after:ml-0.5 after:text-red-500" placeholder="Expiry date" required autoComplete="cc-exp" type="text" />
+							<input className="ring-1 ring-gray-400 rounded-2xl px-4 w-1/2 h-14 placeholder:after:content-['*'] after:ml-0.5 after:text-red-500" autoComplete="cc-csc" placeholder="CVV/CVC" required type="text" />
+						</div>
 					</form>
-					<div className="flex flex-row pt-4 gap-4">
-						<input className="border rounded-lg pl-4 p-3 w-1/2" placeholder="Expiry date" />
-						<input className="border rounded-lg pl-4 p-3 w-1/2" placeholder="CVV/CVC" />
-					</div>
 				</div>
 				<hr className="my-8" />
 				<div className="flex justify-between items-center">
 					<h6>Total Payable: $XXX</h6>
-					<div className="bg-green-200 w-40 rounded-xl flex items-center justify-center">
-						<PiPiggyBankFill className="text-green-600" />
-						<p className="text-green-700 text-sm p-1">You saved price</p>
+					<div className="bg-green-600 w-40 rounded-xl flex items-center justify-center text-white">
+						<PiPiggyBankFill />
+						<p className="text-sm p-1">You saved price</p>
 					</div>
 				</div>
 				<div className="flex items-center gap-2 py-4">
 					<Link to="#" className="text-gray-700 underline decoration-gray-400 text-sm">
-						You will be charged in AFD
+						You will be charged in AED
 					</Link>
 					<BsInfoCircleFill color="gray" className="cursor-pointer" />
 				</div>
