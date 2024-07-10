@@ -2,7 +2,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 
 const AdditionalInformation = () => {
 	return (
-		<section id="aditionalinformation" className="my-8 pt-10">
+		<section id="aditional-information" className="my-8 pt-10">
 			<h6 className="mt-10 text-3xl font-medium">Additional information</h6>
 			<p className="py-5 text-xl font-light text-gray-700">We need a few more details to complete your reservation.</p>
 			<form className="flex flex-col gap-4 pt-8">
