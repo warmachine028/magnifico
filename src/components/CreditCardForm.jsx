@@ -27,7 +27,7 @@ const CreditCardForm = () => {
 							<div className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3.5">
 								<IoMdCard className="size-5 text-gray-600" />
 							</div>
-							<input type="email" className="h-14 w-full rounded-2xl px-4 ps-10 text-gray-400 ring-1 ring-gray-400" placeholder="Card Number" autoComplete="cc-number" required />
+							<input type="number" className="h-14 w-full rounded-2xl px-4 ps-10 text-gray-400 ring-1 ring-gray-400" placeholder="Card Number" autoComplete="cc-number" required />
 						</div>
 					</div>
 					<div className="flex flex-row gap-4 pt-4">

@@ -14,4 +14,5 @@ export { default as Waves } from './waves.png'
 export { default as Mountain } from "./mountain.jpeg"
 export { default as Visa } from "./visa.png"
 export { default as MasterCard } from "./mastercard.png"
-export {default as DinersClub} from "./diners-club.png"
+export { default as DinersClub } from "./diners-club.png"
+export {default as HeadPhones} from './headphone.png'
