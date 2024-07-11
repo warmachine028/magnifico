@@ -1,6 +1,5 @@
 import React from 'react'
 import { FiPlus } from 'react-icons/fi'
-import { GoPlus } from 'react-icons/go'
 
 const Question = ({ ques, ans, defaultChecked }) => {
 	return (
