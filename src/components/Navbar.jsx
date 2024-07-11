@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import SecondaryButton from './SecondaryButton'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FaArrowRight } from 'react-icons/fa'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
 	const navLinks = ['Products', 'Solutions', 'Services', 'Help Center']
@@ -35,7 +36,7 @@ const Navbar = () => {
 						</button>
 					</div>
 					<button className="sm:hidden">
-						<box-icon style={{ width: '38px', height: 100 }} name="menu"></box-icon>
+						<GiHamburgerMenu className='size-7'/>
 					</button>
 				</div>
 			</div>
