@@ -19,6 +19,7 @@ const Payment = () => {
 					<hr />
 				</div>
 			<FAQ />
+			<hr className='pb-36'/>
 		</main>
 	)
 }

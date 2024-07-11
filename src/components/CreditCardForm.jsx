@@ -1,6 +1,5 @@
 import { DinersClub, MasterCard, Visa } from '../assets'
-import { PiInfoBold, PiInfoLight, PiPiggyBankFill } from 'react-icons/pi'
-import { BsInfoCircleFill } from 'react-icons/bs'
+import { PiInfoBold, PiPiggyBankFill } from 'react-icons/pi'
 import { MdLock } from 'react-icons/md'
 import { IoMdCard } from 'react-icons/io'
 import { Link } from 'react-router-dom'
