@@ -1,14 +1,18 @@
 import { BsInfoCircleFill } from 'react-icons/bs'
 import { FaGlobeAmericas, FaPhoneAlt, FaRegEnvelope, FaUser } from 'react-icons/fa'
 import { IoIosArrowDown } from 'react-icons/io'
+import { DestinationCard } from '../components'
 
 const PaymentHero = () => {
 	return (
 		<section id="paymenthero" className="my-8">
-			<h1 className="text-6xl font-extrabold">Confirm & pay</h1>
+			<h1 className="sm:text-6xl sm:font-extrabold sm:font-sans text-3xl font-medium font-robotoserif">Confirm & pay</h1>
+			<div className="sm:hidden my-8">
+				<DestinationCard/>
+			</div>
 			<div className="my-16 flex items-center justify-between rounded-2xl p-5 ring-1 ring-gray-300">
-				<h6 className="text-gray-600">
-					<strong className="font-semibold text-black">Free cancellation</strong>
+				<h6 className="text-gray-600 text-sm sm:text-lg">
+					<strong className="sm:font-semibold text-black">Free cancellation</strong>
 					<br />
 					Tickets can be cancelled by 13th December, 2022.
 				</h6>

@@ -3,9 +3,9 @@ import { PaymentHero, AdditionalInformation, PaymentMode, TotalPayable, FAQ } fr
 
 const Payment = () => {
 	return (
-		<main className="container mx-auto flex flex-col px-14 py-16 font-sans">
-				<div className="flex">
-					<div className="mx-10 w-2/3">
+		<main className="container mx-auto sm:flex sm:flex-col px-14 py-16 font-sans">
+				<div className="sm:flex">
+					<div className="sm:mx-10 sm:w-2/3">
 						<PaymentHero />
 						<hr />
 						<AdditionalInformation />
@@ -14,8 +14,10 @@ const Payment = () => {
 						<hr />
 						<TotalPayable />
 						<hr />
-					</div>
+				</div>
+				<div className="hidden sm:flex">
 					<DestinationCard />
+				</div>
 					<hr />
 				</div>
 			<FAQ />
