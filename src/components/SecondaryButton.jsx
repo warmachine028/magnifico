@@ -6,7 +6,7 @@ const SecondaryButton = ({ color, arrow, children }) => {
 	const iconColor = colors[color]
 	const textColor = `text-[${iconColor}]`
 	return (
-		<button className="flex items-center mr-4 gap-2">
+		<button className="mr-4 flex items-center gap-2">
 			<p className={textColor}>{children}</p>
 			{arrow && <FaArrowRight color={iconColor} />}
 		</button>

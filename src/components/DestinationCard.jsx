@@ -8,19 +8,19 @@ import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle, IoMdTrophy } from 
 
 const DestinationCard = () => {
 	return (
-		<aside className="flex max-h-[750px] max-w-sm flex-col rounded-xl border p-2">
+		<aside className="flex max-h-[750px] w-full max-w-sm flex-col rounded-xl border p-2">
 			<div className="relative flex flex-col p-1">
 				<div className="absolute left-4 top-3 flex items-center gap-1 rounded-md bg-white p-2 text-sm font-medium">
 					<IoMdTrophy />
 					Bestseller
 				</div>
-				<div className="absolute left-4 top-24 hidden text-white sm:flex">
-					<IoIosArrowDropleftCircle />
-				</div>
-				<div className="absolute right-4 top-24 hidden text-white sm:flex">
-					<IoIosArrowDroprightCircle />
-				</div>
-				<img className="h-48 w-96 rounded-lg" src={Mountain} alt="Mountain" />
+				<button className="absolute start-0 top-1/2 hidden -translate-x-0.5 -translate-y-3 transform ps-3.5 text-white transition-all hover:scale-125 sm:block">
+					<IoIosArrowDropleftCircle className="size-8" />
+				</button>
+				<button className="absolute end-0 top-1/2 hidden -translate-x-0.5 -translate-y-3 pe-3.5 text-white transition-all hover:scale-125 sm:block">
+					<IoIosArrowDroprightCircle className="size-8" />
+				</button>
+				<img className="h-48 w-full rounded-lg object-cover" src={Mountain} alt="Mountain" />
 			</div>
 			<div className="p-2">
 				<h6 className="flex items-center font-light text-gray-500">

@@ -4,31 +4,31 @@ import { EnvelopeIcon } from '../assets'
 
 const Hero = () => {
 	return (
-		<section id="hero" className="flex flex-col sm:flex-row sm:container sm:px-2 mx-auto sm:py-16 my-20 justify-center bg-no-repeat bg-none bg-white" style={{ backgroundImage: `url('${Stars}')`, backgroundPosition: 'right 30px bottom -8px' }}>
-			<div className="sm:w-1/2 w-full justify-center sm:mx-10 flex flex-col px-7">
+		<section id="hero" className="mx-auto my-20 flex flex-col justify-center bg-white bg-none bg-no-repeat sm:container sm:flex-row sm:px-2 sm:py-16" style={{ backgroundImage: `url('${Stars}')`, backgroundPosition: 'right 30px bottom -8px' }}>
+			<div className="flex w-full flex-col justify-center px-7 sm:mx-10 sm:w-1/2">
 				<div className="sm:w-[550px]">
-					<h1 className="text-[72px] leading-[80px] font-extrabold hidden sm:block">
+					<h1 className="hidden text-[72px] font-extrabold leading-[80px] sm:block">
 						Team projects,
 						<br />
 						done well
 					</h1>
-					<h1 className="xs:text-5xl text-4xl font-bold sm:hidden">Teach students worldwide</h1>
+					<h1 className="text-4xl font-bold xs:text-5xl sm:hidden">Teach students worldwide</h1>
 
-					<p className="text-gray-500 mt-8 leading-7 hidden  sm:block">
+					<p className="mt-8 hidden leading-7 text-gray-500 sm:block">
 						The only platform that gives your team all the tools needed to work <br />
 						together on their awesome projects.{' '}
 					</p>
-					<p className="text-gray-500 mt-8 xs:text-xl text-sm leading-7 sm:hidden">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
+					<p className="mt-8 text-sm leading-7 text-gray-500 xs:text-xl sm:hidden">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
 
-					<form className="mt-5 mb-5 flex gap-3">
-						<input placeholder="Enter work email" className="border pl-12 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg bg-no-repeat hidden sm:block" type="email" autoComplete="email" style={{ backgroundImage: `url('${EnvelopeIcon}')`, backgroundPosition: '15px' }} />
-						<input placeholder="Enter work email" type="email" autoComplete="email" className="border pl-4 sm:w-full w-1/2 h-12 border-gray-300 placeholder-gray-700 rounded-lg sm:hidden text-sm xs:text-md" />
-						<button className="bg-blue-600 py-2 px-5 rounded-md text-white flex gap-2 items-center sm:w-64 w-1/2 justify-center text-sm xs:text-md" type="submit">
+					<form className="mb-5 mt-5 flex gap-3">
+						<input placeholder="Enter work email" className="hidden h-12 w-1/2 rounded-lg border border-gray-300 bg-no-repeat pl-12 placeholder-gray-700 sm:block sm:w-full" type="email" autoComplete="email" style={{ backgroundImage: `url('${EnvelopeIcon}')`, backgroundPosition: '15px' }} />
+						<input placeholder="Enter work email" type="email" autoComplete="email" className="xs:text-md h-12 w-1/2 rounded-lg border border-gray-300 pl-4 text-sm placeholder-gray-700 sm:hidden sm:w-full" />
+						<button className="xs:text-md flex w-1/2 items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-2 text-sm text-white sm:w-64" type="submit">
 							Sign Up Free
 							<FaArrowRight />
 						</button>
 					</form>
-					<div className=" bg-slate-100 rounded-lg p-3 grid grid-cols-2 sm:grid-cols-4 items-end justify-items-center gap-5 my-5">
+					<div className="my-5 grid grid-cols-2 items-end justify-items-center gap-5 rounded-lg bg-slate-100 p-3 sm:grid-cols-4">
 						<img src={Shells} alt="shells" />
 						<img src={SmartFinder} alt="smartfinder" />
 						<img src={ArtVenue} alt="artvenue" />
@@ -36,7 +36,7 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
-			<div className="sm:w-1/2 sm:px-10 px-7 flex w-full">
+			<div className="flex w-full px-7 sm:w-1/2 sm:px-10">
 				<img src={Video1} alt="video" />
 			</div>
 		</section>
