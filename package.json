@@ -1,8 +1,22 @@
 {
-	"name": "spyder6",
-	"private": true,
-	"version": "0.0.0",
+	"name": "magnifico",
+	"version": "0.1.0",
+	"description": "A sleek and responsive website.",
+	"main": "src/main.jsx",
 	"type": "module",
+	"private": true,
+	"author": {
+		"name": "Pritam Kundu",
+		"email": "warmachine028@outlook.com",
+		"url": "https://github.com/warmachine028"
+	},
+	"contributors": [
+		{
+			"name": "Srija Adhya",
+			"email": "srijaadhya.11sc.2020@gmail.com",
+			"url": "https://github.com/srijaadhya12"
+		}
+	],
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
@@ -29,5 +43,16 @@
 		"prettier-plugin-tailwindcss": "^0.6.5",
 		"tailwindcss": "^3.4.4",
 		"vite": "^5.3.1"
-	}
+	},
+	"homepage": "https://magnifico-sp.vercel.app",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/warmachine028/magnifico.git"
+	},
+	"keywords": [
+		"react",
+		"tailwind",
+		"react-icons",
+		"vite"
+	]
 }

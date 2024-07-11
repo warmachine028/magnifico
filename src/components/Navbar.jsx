@@ -35,9 +35,25 @@ const Navbar = () => {
 							<FaArrowRight />
 						</button>
 					</div>
-					<button className="sm:hidden">
-						<GiHamburgerMenu className='size-7'/>
-					</button>
+					<label className="cursor-pointer sm:hidden">
+						<input type="checkbox" className="peer sr-only" />
+						<div className="group relative flex w-full">
+							<GiHamburgerMenu className="size-7" />
+							<ul className="absolute -right-10 top-10 z-50 ml-14 hidden w-screen flex-col items-center justify-center bg-white text-xl font-medium tracking-wide shadow-xl transition-all duration-150 ease-in-out peer-checked:group-[]:flex sm:space-x-12">
+								{navLinks.map((link) => (
+									<li key={link} className="duration-50 flex h-14 w-full justify-center transition-colors ease-in-out hover:bg-gray-400 hover:text-white">
+										<button className="flex items-center gap-2">
+											{link}
+											<IoIosArrowDown className="hidden sm:block" />
+										</button>
+									</li>
+								))}
+								<li className="duration-50 flex h-14 w-full items-center justify-center transition-colors ease-in-out hover:bg-gray-400 hover:text-white">
+									<NavLink to="/payment">Pricing</NavLink>
+								</li>
+							</ul>
+						</div>
+					</label>
 				</div>
 			</div>
 		</nav>

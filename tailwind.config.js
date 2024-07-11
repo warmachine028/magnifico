@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme')
+import defaultTheme from 'tailwindcss/defaultTheme'
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
@@ -11,7 +11,7 @@ export default {
 			fontFamily: {
 				roboto: ['Roboto'],
 				sans: ['Open Sans'],
-				robotoserif : ['Roboto Serif']
+				robotoserif: ['Roboto Serif']
 			},
 		},
 	},
