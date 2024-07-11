@@ -6,13 +6,17 @@ const PaymentHero = () => {
 	return (
 		<section id="paymenthero" className="my-8">
 			<h1 className="text-6xl font-extrabold">Confirm & pay</h1>
-			<div className="my-16 flex justify-between rounded-2xl p-5 ring-1 ring-gray-300">
+			<div className="my-16 flex items-center justify-between rounded-2xl p-5 ring-1 ring-gray-300">
 				<h6 className="text-gray-600">
 					<strong className="font-semibold text-black">Free cancellation</strong>
 					<br />
 					Tickets can be cancelled by 13th December, 2022.
 				</h6>
-				<BsInfoCircleFill color="gray" className="cursor-pointer" />
+
+				<div className="group relative">
+					<BsInfoCircleFill color="gray" className="cursor-pointer" />
+					<span className="sidebar-tooltip origin left absolute m-2 w-auto min-w-max scale-0 rounded-md bg-gray-100 p-2 text-xs font-medium text-gray-600 shadow-md transition-all duration-100 group-hover:scale-100 bottom-3 ">More info</span>
+				</div>
 			</div>
 			<h6 className="mt-10 text-3xl font-medium">Enter your details</h6>
 			<p className="py-5 text-xl font-light text-gray-700">We'll be sending your tickets to the details below. Booking for a friend? Add their details.</p>

@@ -46,7 +46,10 @@ const CreditCardForm = () => {
 					<Link to="#" className="text-sm text-gray-700 underline decoration-gray-400">
 						You will be charged in AED
 					</Link>
-					<PiInfoBold className="size-5 cursor-pointer text-gray-500" />
+					<div className="group relative">
+						<PiInfoBold className="size-5 cursor-pointer text-gray-500" />
+						<span className="sidebar-tooltip origin left absolute bottom-3 m-2 w-auto min-w-max scale-0 rounded-md bg-gray-100 p-2 text-xs font-medium text-gray-600 shadow-md transition-all duration-100 group-hover:scale-100">More info</span>
+					</div>
 				</div>
 				<p className="text-gray-500">
 					By clicking “confirm & pay”, you agree to{' '}

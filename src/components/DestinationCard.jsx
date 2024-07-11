@@ -1,9 +1,8 @@
-import { PiPiggyBankFill, PiTicketFill } from 'react-icons/pi'
+import { PiInfoBold, PiPiggyBankFill, PiTicketFill } from 'react-icons/pi'
 import { Mountain } from '../assets'
 import { FaCalendar, FaPlus, FaStar } from 'react-icons/fa'
 import { HiClock } from 'react-icons/hi'
 import { FaUserGroup } from 'react-icons/fa6'
-import { BsInfoCircleFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 const DestinationCard = () => {
@@ -55,7 +54,10 @@ const DestinationCard = () => {
 				</div>
 				<div className="flex items-center gap-2 py-4">
 					<p className="text-sm text-gray-700 underline decoration-gray-400">You will be charged in AED</p>
-					<BsInfoCircleFill color="gray" className="cursor-pointer" />
+					<div className="group relative">
+						<PiInfoBold className="size-5 cursor-pointer text-gray-500" />
+						<span className="sidebar-tooltip origin left absolute bottom-3 m-2 w-auto min-w-max scale-0 rounded-md bg-gray-100 p-2 text-xs font-medium text-gray-600 shadow-md transition-all duration-100 group-hover:scale-100">More info</span>
+					</div>
 				</div>
 			</div>
 		</aside>
