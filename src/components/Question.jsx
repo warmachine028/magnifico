@@ -1,10 +1,10 @@
 import React from 'react'
 import { GoPlus } from 'react-icons/go'
 
-const Question = ({ ques, ans }) => {
+const Question = ({ ques, ans, defaultChecked }) => {
 	return (
 		<label className="cursor-pointer">
-			<input type="radio" className="peer sr-only" name='faq' />
+			<input type="radio" className="peer sr-only" defaultChecked={defaultChecked} name="faq" />
 			<div className="group my-4 items-center gap-4 rounded-2xl p-6 ring-1 ring-gray-300 peer-checked:ring-gray-500">
 				<div className="flex items-center gap-4">
 					<GoPlus className="text-gray-500 peer-checked:group-[]:hidden" />
