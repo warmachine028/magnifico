@@ -8,14 +8,17 @@ const CreditCardForm = () => {
 	return (
 		<form className="">
 			<div className="flex items-center gap-4">
-				<div className="my-6 flex h-6 w-10 items-center justify-center rounded-md border">
-					<img src={Visa} alt="Visa" />
+				<div className="my-6 flex h-6 w-12 items-center justify-center rounded-md border">
+					<input type="radio" name="selecdcard" className="peer px-2" />
+					<img src={Visa} className="peer-checked:bg-slate-300" alt="Visa" />
 				</div>
-				<div className="flex h-6 w-10 items-center justify-center rounded-md border">
-					<img src={MasterCard} alt="MasterCard" />
+				<div className="my-6 flex h-6 w-12 items-center justify-center rounded-md border">
+					<input type="radio" name="selecdcard" className="peer px-2"/>
+					<img src={MasterCard} alt="MasterCard" className="peer-checked:bg-slate-300" />
 				</div>
-				<div className="flex h-6 w-10 items-center justify-center rounded-md border">
-					<img src={DinersClub} alt="DinersClub" />
+				<div className="my-6 flex h-6 w-12 items-center justify-center rounded-md border">
+					<input type="radio" name="selecdcard" className="peer px-2"/>
+					<img src={DinersClub} alt="DinersClub" className="peer-checked:bg-slate-300" />
 				</div>
 			</div>
 			<div>
