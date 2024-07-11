@@ -36,7 +36,7 @@ const Navbar = () => {
 						</button>
 					</div>
 					<button className="sm:hidden">
-						<GiHamburgerMenu className='size-10'/>
+						<GiHamburgerMenu className='size-7'/>
 					</button>
 				</div>
 			</div>
