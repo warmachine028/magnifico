@@ -14,10 +14,10 @@ const DestinationCard = () => {
 					<IoMdTrophy />
 					Bestseller
 				</div>
-				<div className="absolute left-4 top-24 text-white">
+				<div className="absolute left-4 top-24 hidden text-white sm:flex">
 					<IoIosArrowDropleftCircle />
 				</div>
-				<div className="absolute right-4 top-24 text-white">
+				<div className="absolute right-4 top-24 hidden text-white sm:flex">
 					<IoIosArrowDroprightCircle />
 				</div>
 				<img className="h-48 w-96 rounded-lg" src={Mountain} alt="Mountain" />
