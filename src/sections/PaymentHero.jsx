@@ -22,8 +22,8 @@ const PaymentHero = () => {
 					<span className="sidebar-tooltip origin left absolute bottom-3 m-2 w-auto min-w-max scale-0 rounded-md bg-gray-100 p-2 text-xs font-medium text-gray-600 shadow-md transition-all duration-100 group-hover:scale-100">More info</span>
 				</div>
 			</div>
-			<h6 className="mt-10 text-lg font-medium sm:text-3xl">Enter your details</h6>
-			<p className="text-md py-5 font-light text-gray-700 sm:text-xl">We'll be sending your tickets to the details below. Booking for a friend? Add their details.</p>
+			<h6 className="mt-10 text-2xl font-medium sm:text-3xl">Enter your details</h6>
+			<p className="text-lg  py-5 font-light text-gray-700 sm:text-xl">We'll be sending your tickets to the details below. Booking for a friend? Add their details.</p>
 			<form className="pt-8">
 				<div className="relative w-full">
 					<div className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3.5">
