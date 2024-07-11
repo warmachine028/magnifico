@@ -4,11 +4,22 @@ import { FaCalendar, FaPlus, FaStar } from 'react-icons/fa'
 import { HiClock } from 'react-icons/hi'
 import { FaUserGroup } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
+import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle, IoMdTrophy } from 'react-icons/io'
 
 const DestinationCard = () => {
 	return (
 		<aside className="flex max-h-[750px] max-w-sm flex-col rounded-xl border p-2">
-			<div className="flex flex-col p-1">
+			<div className="relative flex flex-col p-1">
+				<div className="absolute left-4 top-3 flex items-center gap-1 rounded-md bg-white p-2 text-sm font-medium">
+					<IoMdTrophy />
+					Bestseller
+				</div>
+				<div className="absolute left-4 top-24 text-white">
+					<IoIosArrowDropleftCircle />
+				</div>
+				<div className="absolute right-4 top-24 text-white">
+					<IoIosArrowDroprightCircle />
+				</div>
 				<img className="h-48 w-96 rounded-lg" src={Mountain} alt="Mountain" />
 			</div>
 			<div className="p-2">
