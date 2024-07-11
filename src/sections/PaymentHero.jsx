@@ -5,7 +5,7 @@ import { DestinationCard } from '../components'
 
 const PaymentHero = () => {
 	return (
-		<section id="paymenthero" className="sm:my-8">
+		<section id="payment-hero" className="sm:my-8">
 			<h1 className="font-robotoserif text-3xl font-medium sm:font-sans sm:text-6xl sm:font-extrabold">Confirm & pay</h1>
 			<div className="my-8 sm:hidden">
 				<DestinationCard />
@@ -23,7 +23,7 @@ const PaymentHero = () => {
 				</div>
 			</div>
 			<h6 className="mt-10 text-2xl font-medium sm:text-3xl">Enter your details</h6>
-			<p className="text-lg  py-5 font-light text-gray-700 sm:text-xl">We'll be sending your tickets to the details below. Booking for a friend? Add their details.</p>
+			<p className="py-5 text-lg font-light text-gray-700 sm:text-xl">We'll be sending your tickets to the details below. Booking for a friend? Add their details.</p>
 			<form className="pt-8">
 				<div className="relative w-full">
 					<div className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3.5">

@@ -5,10 +5,9 @@ import { HiClock } from 'react-icons/hi'
 import { FaUserGroup } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle, IoMdTrophy } from 'react-icons/io'
-
 const DestinationCard = () => {
 	return (
-		<aside className="flex max-h-[750px] w-full max-w-sm flex-col rounded-xl border p-2">
+		<aside className="flex max-h-[750px] w-full max-w-screen-sm flex-col rounded-xl border p-2 sm:max-w-sm">
 			<div className="relative flex flex-col p-1">
 				<div className="absolute left-4 top-3 flex items-center gap-1 rounded-md bg-white p-2 text-sm font-medium">
 					<IoMdTrophy />
@@ -64,10 +63,12 @@ const DestinationCard = () => {
 					<p className="p-1 text-sm text-green-700">You saved price</p>
 				</div>
 				<div className="flex items-center gap-2 py-4">
-					<p className="text-sm text-gray-700 underline decoration-gray-400">You will be charged in AED</p>
+					<Link to="#" className="text-sm text-gray-700 underline decoration-gray-400">
+						You will be charged in AED
+					</Link>
 					<div className="group relative">
 						<PiInfoBold className="size-5 cursor-pointer text-gray-500" />
-						<span className="sidebar-tooltip origin left absolute bottom-3 m-2 w-auto min-w-max scale-0 rounded-md bg-gray-100 p-2 text-xs font-medium text-gray-600 shadow-md transition-all duration-100 group-hover:scale-100">More info</span>
+						<span className="absolute bottom-3 m-2 w-52 min-w-10 scale-0 break-words rounded-md bg-gray-100 p-2 text-xs font-medium text-gray-600 shadow-md transition-all duration-100 group-hover:scale-100">The amount you will be required to pay for a product or service will be calculated and billed in the currency of the United Arab Emirates</span>
 					</div>
 				</div>
 			</div>

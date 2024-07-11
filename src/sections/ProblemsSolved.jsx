@@ -1,13 +1,14 @@
 import { SecondaryButton } from '../components'
 import { Container } from '../assets'
+
 const ProblemSolved = () => {
 	return (
-		<section id="tools" style={{ backgroundImage: `url('${Container}')` }} className="container px-2 mx-auto sm:mt-48 bg-no-repeat w-full sm:h-[550px]  bg-center sm:rounded-3xl bg-cover flex text-white items-center py-16">
-			<div className="sm:w-1/2 hidden sm:block" />
-			<div className="sm:w-1/2 sm:pr-24 flex flex-col gap-9 px-7">
+		<section id="problem-solved" style={{ backgroundImage: `url('${Container}')` }} className="container mx-auto flex w-full items-center bg-cover bg-center bg-no-repeat px-2 py-16 text-white sm:mt-48 sm:h-[550px] sm:rounded-3xl">
+			<div className="hidden sm:block sm:w-1/2" />
+			<div className="flex flex-col gap-9 px-7 sm:w-1/2 sm:pr-24">
 				<div className="flex flex-col gap-7">
-					<h1 className="text-4xl xs:text-5xl  sm:text-6xl  font-bold  sm:leading-[80px] sm:font-extrabold">Problems come and get solved with ease</h1>
-					<p className="sm:leading-8 xs:leading-7 leading-6 max-w-xl sm:text-xl text-sm xs:text-md pr-2 xs:pr-0">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+					<h1 className="text-4xl font-bold xs:text-5xl sm:text-6xl sm:font-extrabold sm:leading-[80px]">Problems come and get solved with ease</h1>
+					<p className="xs:text-md max-w-xl pr-2 text-sm leading-6 xs:pr-0 xs:leading-7 sm:text-xl sm:leading-8">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
 				</div>
 				<SecondaryButton arrow color="white">
 					Improve workflow

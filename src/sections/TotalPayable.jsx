@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const TotalPayable = () => {
 	return (
-		<section id="total" className="mb-6 mt-12">
+		<section id="total-payable" className="mb-6 mt-12">
 			<h1 className="text-3xl font-medium">Total Payable: $XXX</h1>
 			<div className="my-6 rounded-2xl p-7 ring-1 ring-gray-300">
 				<div className="flex items-center gap-2">
