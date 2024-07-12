@@ -3,7 +3,7 @@ import { SecondaryButton } from '../components'
 
 const ImproveWorkflow = () => {
 	return (
-		<section id="improve-workflow" className="mt-20 flex flex-col px-5 sm:mt-52 sm:flex-row sm:gap-72 sm:px-2">
+		<section id="improve-workflow" className="mt-20 flex flex-col px-5 sm:mt-52 sm:flex-row sm:gap-72">
 			<div className="w-full sm:w-1/2">
 				<h1 className="my-4 text-4xl font-bold xs:text-5xl sm:my-5 sm:text-6xl sm:font-extrabold sm:leading-[80px] dark:text-blue-600">Improve workflow</h1>
 				<div className="my-7 flex sm:w-full">

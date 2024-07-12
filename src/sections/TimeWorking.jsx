@@ -3,7 +3,7 @@ import { SecondaryButton } from '../components'
 
 const TimeWorking = () => {
 	return (
-		<section id="time-working" className="relative mx-auto my-28 flex flex-col-reverse gap-16 font-roboto sm:container sm:my-52 sm:flex-row sm:px-2 sm:py-16">
+		<section id="time-working" className="relative mx-auto my-28 flex flex-col-reverse gap-16 font-roboto sm:container sm:my-52 sm:flex-row sm:py-16">
 			<div className="flex w-full justify-center gap-2 sm:w-1/2 sm:gap-4">
 				<img className="z-10 mt-20 h-52 xs:h-60 sm:h-96" src={image1} alt="woman" />
 				<img className="z-10 h-52 xs:h-60 sm:h-96" src={image2} alt="group" />
