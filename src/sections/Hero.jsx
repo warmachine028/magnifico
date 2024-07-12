@@ -4,15 +4,15 @@ import { EnvelopeIcon } from '../assets'
 
 const Hero = () => {
 	return (
-		<section id="hero" className="mx-auto my-20 flex flex-col justify-center bg-white bg-none bg-no-repeat sm:flex-row" style={{ backgroundImage: `url('${Stars}')`, backgroundPosition: 'right 30px bottom -8px' }}>
+		<section id="hero" className="my-20 flex flex-col justify-center bg-white bg-none bg-no-repeat font-roboto sm:flex-row sm:px-2 sm:py-16 dark:bg-slate-900" style={{ backgroundImage: `url('${Stars}')`, backgroundPosition: 'right 30px bottom -8px' }}>
 			<div className="flex w-full flex-col justify-center px-7 sm:mx-10 sm:w-1/2">
 				<div className="sm:w-[550px]">
-					<h1 className="hidden text-[72px] font-extrabold leading-[80px] sm:block">
+					<h1 className="hidden text-[72px] font-extrabold leading-[80px] sm:block dark:text-blue-600">
 						Team projects,
 						<br />
 						done well
 					</h1>
-					<h1 className="text-4xl font-bold xs:text-5xl sm:hidden">Teach students worldwide</h1>
+					<h1 className="text-4xl font-bold xs:text-5xl sm:hidden dark:text-blue-600">Teach students worldwide</h1>
 
 					<p className="mt-8 hidden leading-7 text-gray-500 sm:block">
 						The only platform that gives your team all the tools needed to work <br />

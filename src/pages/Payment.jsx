@@ -3,7 +3,7 @@ import { PaymentHero, AdditionalInformation, PaymentMode, TotalPayable, FAQ } fr
 
 const Payment = () => {
 	return (
-		<main className="mx-auto pb-14 font-sans sm:container sm:flex sm:flex-col sm:px-14 sm:py-16">
+		<main className="mx-auto pb-14 font-sans sm:container sm:flex sm:flex-col sm:px-14 sm:py-16 dark:bg-slate-900">
 			<div className="sticky left-0 top-20 z-40 flex w-full justify-center bg-blue-600 p-3 text-center text-white sm:hidden">Holding your tickets for 30:00</div>
 			<div className="px-7 pt-12 sm:flex">
 				<div className="sm:mx-10 sm:w-2/3">

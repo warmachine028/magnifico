@@ -7,15 +7,15 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 const Navbar = () => {
 	const navLinks = ['Products', 'Solutions', 'Services', 'Help Center']
 	return (
-		<nav className="sticky top-0 z-50 flex h-20 items-center border-b bg-white py-3 font-roboto">
+		<nav className="sticky top-0 z-50 flex h-20 items-center border-b bg-white py-3 font-roboto dark:bg-slate-900">
 			<div className="container relative mx-auto px-7 text-sm sm:px-2">
 				<div className="flex items-center justify-between">
 					<div className="flex flex-shrink-0 items-center">
-						<span className="text-xl font-bold xs:text-2xl sm:text-4xl">
+						<span className="text-xl font-bold xs:text-2xl sm:text-4xl dark:text-white">
 							<Link to="/">magnifico</Link>
 						</span>
 					</div>
-					<ul className="ml-14 hidden space-x-12 font-medium tracking-wide lg:flex">
+					<ul className="ml-14 hidden space-x-12 font-medium tracking-wide lg:flex dark:text-white">
 						{navLinks.map((link) => (
 							<li key={link}>
 								<button className="flex items-center gap-2">

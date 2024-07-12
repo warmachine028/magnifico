@@ -1,8 +1,9 @@
+import { Navbar } from '../components'
 import { Community, Hero, ImproveWorkflow, ProblemSolved, TimeWorking, Tools } from '../sections'
 
 const Home = () => {
 	return (
-		<main className="mx-auto font-roboto sm:container sm:px-2 sm:py-16">
+		<main className="container mx-auto dark:bg-slate-900">
 			<Hero />
 			<hr className="hidden sm:block" />
 			<TimeWorking />

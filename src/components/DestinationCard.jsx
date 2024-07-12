@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle, IoMdTrophy } from 'react-icons/io'
 const DestinationCard = () => {
 	return (
-		<aside className="flex max-h-[750px] w-full max-w-screen-sm flex-col rounded-xl border p-2 sm:max-w-sm">
+		<aside className="flex max-h-[750px] w-full max-w-screen-sm flex-col rounded-xl border p-2 sm:max-w-sm dark:bg-gray-300">
 			<div className="relative flex flex-col p-1">
 				<div className="absolute left-4 top-3 flex items-center gap-1 rounded-md bg-white p-2 text-sm font-medium">
 					<IoMdTrophy />
@@ -58,9 +58,9 @@ const DestinationCard = () => {
 					<h6 className="py-4 font-semibold">Total payable</h6>
 					<h6 className="font-semibold">$XXX</h6>
 				</div>
-				<div className="flex w-40 items-center justify-center rounded-xl bg-green-200">
-					<PiPiggyBankFill className="text-green-600" />
-					<p className="p-1 text-sm text-green-700">You saved price</p>
+				<div className="flex w-40 items-center justify-center rounded-xl bg-green-200 dark:bg-green-400">
+					<PiPiggyBankFill className="text-green-600 dark:text-green-700" />
+					<p className="p-1 text-sm text-green-700 dark:text-green-700">You saved price</p>
 				</div>
 				<div className="flex items-center gap-2 py-4">
 					<Link to="#" className="text-sm text-gray-700 underline decoration-gray-400">
