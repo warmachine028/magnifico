@@ -3,7 +3,7 @@ import { Container } from '../assets'
 
 const ProblemSolved = () => {
 	return (
-		<section id="problem-solved" style={{ backgroundImage: `url('${Container}')` }} className="container mx-auto flex w-full items-center bg-cover bg-center bg-no-repeat px-2 py-16 text-white sm:mt-48 sm:h-[550px] sm:rounded-3xl">
+		<section id="problem-solved" style={{ backgroundImage: `url('${Container}')` }} className="flex w-full items-center bg-cover bg-center bg-no-repeat px-2 py-16 text-white sm:mt-48 sm:h-[550px] sm:rounded-3xl">
 			<div className="hidden sm:block sm:w-1/2" />
 			<div className="flex flex-col gap-9 px-7 sm:w-1/2 sm:pr-24">
 				<div className="flex flex-col gap-7">

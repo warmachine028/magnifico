@@ -2,7 +2,7 @@ import { Community, Hero, ImproveWorkflow, ProblemSolved, TimeWorking, Tools } f
 
 const Home = () => {
 	return (
-		<main className="font-roboto">
+		<main className="mx-auto font-roboto sm:container sm:px-2 sm:py-16">
 			<Hero />
 			<hr className="hidden sm:block" />
 			<TimeWorking />
