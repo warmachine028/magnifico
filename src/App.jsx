@@ -1,24 +1,23 @@
 import { useState } from 'react'
 import { AppRouter, Footer, Navbar } from './components'
+import { IoSunnySharp } from 'react-icons/io5'
+import { FaMoon } from 'react-icons/fa'
 
 const App = () => {
 	const [darkMode, setDarkMode] = useState(false)
+
 	const toggleDarkMode = () => {
-		setDarkMode(!darkMode)
+		setDarkMode((darkMode) => !darkMode)
 	}
 	return (
-		<>
-			<main className={`${darkMode && 'dark'}`}>
-				<div className="dark:bg-slate-900">
-					<Navbar />
-					<AppRouter />
-					<button onClick={toggleDarkMode} className="absolute right-16 h-16 w-16 rounded-full bg-neutral-900 text-white ring-1 dark:bg-white dark:text-black">
-						{darkMode ? 'Light' : 'Dark'}
-					</button>
-					<Footer />
-				</div>
-			</main>
-		</>
+		<div className={`${darkMode && 'dark'}`}>
+			<Navbar />
+			<AppRouter />
+			<button onClick={toggleDarkMode} className="fixed bottom-40 end-20 z-50 float-start flex h-14 w-14 items-center justify-center rounded-full bg-neutral-900 text-white ring-1 dark:bg-white dark:text-black">
+				{darkMode ? <IoSunnySharp /> : <FaMoon />}
+			</button>
+			<Footer />
+		</div>
 	)
 }
 

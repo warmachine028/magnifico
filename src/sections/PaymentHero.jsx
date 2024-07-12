@@ -5,7 +5,7 @@ import { DestinationCard } from '../components'
 
 const PaymentHero = () => {
 	return (
-		<section id="payment-hero" className="sm:my-8">
+		<section id="payment-hero" className="sm:my-8 dark:bg-slate-900">
 			<h1 className="font-robotoserif text-3xl font-medium sm:font-sans sm:text-6xl sm:font-extrabold dark:text-blue-700">Confirm & pay</h1>
 			<div className="my-8 sm:hidden">
 				<DestinationCard />

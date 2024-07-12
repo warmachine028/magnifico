@@ -3,6 +3,7 @@ import SecondaryButton from './SecondaryButton'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FaArrowRight } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { RxHamburgerMenu } from 'react-icons/rx'
 
 const Navbar = () => {
 	const navLinks = ['Products', 'Solutions', 'Services', 'Help Center']
@@ -38,7 +39,7 @@ const Navbar = () => {
 					<label className="cursor-pointer sm:hidden">
 						<input type="checkbox" className="peer sr-only" />
 						<div className="group relative flex w-full">
-							<GiHamburgerMenu className="size-7" />
+							<RxHamburgerMenu className="size-7 dark:text-white" />
 							<ul className="absolute -right-10 top-10 z-50 ml-14 hidden w-screen flex-col items-center justify-center bg-white text-xl font-medium tracking-wide shadow-xl transition-all duration-150 ease-in-out peer-checked:group-[]:flex sm:space-x-12">
 								{navLinks.map((link) => (
 									<li key={link} className="duration-50 flex h-14 w-full justify-center transition-colors ease-in-out hover:bg-gray-400 hover:text-white peer-checked:group-[]:flex">
