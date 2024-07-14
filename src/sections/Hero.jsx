@@ -1,10 +1,9 @@
-import { FaArrowRight } from 'react-icons/fa'
+import { FaArrowRight, FaRegEnvelope, FaUser } from 'react-icons/fa'
 import { Shells, SmartFinder, ArtVenue, Waves, Video1, Stars } from '../assets'
-import { EnvelopeIcon } from '../assets'
 
 const Hero = () => {
 	return (
-		<section id="hero" className="flex flex-col justify-center bg-none bg-no-repeat py-36 font-roboto sm:flex-row sm:py-48" style={{ backgroundImage: `url('${Stars}')`, backgroundPosition: 'right 30px bottom 150px' }}>
+		<section id="hero" className="flex flex-col justify-center bg-none bg-no-repeat py-28 font-roboto sm:flex-row sm:py-48" style={{ backgroundImage: `url('${Stars}')`, backgroundPosition: 'right 30px bottom 150px' }}>
 			<div className="flex w-full flex-col justify-center px-7 sm:mx-10 sm:w-1/2">
 				<div className="sm:w-[550px]">
 					<h1 className="hidden text-[72px] font-extrabold leading-[80px] dark:text-blue-600 sm:block">
@@ -18,12 +17,17 @@ const Hero = () => {
 						The only platform that gives your team all the tools needed to work <br />
 						together on their awesome projects.{' '}
 					</p>
-					<p className="mt-8 text-sm leading-7 text-gray-500 xs:text-xl sm:hidden">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
+					<p className="my-10 text-sm leading-7 text-gray-500 xs:text-xl sm:hidden">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
 
-					<form className="mb-5 mt-5 flex gap-3">
-						<input placeholder="Enter work email" className="hidden h-12 w-1/2 rounded-lg border border-gray-300 bg-no-repeat pl-12 placeholder-gray-700 sm:block sm:w-full" type="email" autoComplete="email" style={{ backgroundImage: `url('${EnvelopeIcon}')`, backgroundPosition: '15px' }} />
-						<input placeholder="Enter work email" type="email" autoComplete="email" className="xs:text-md h-12 w-1/2 rounded-lg border border-gray-300 pl-4 text-sm placeholder-gray-700 sm:hidden sm:w-full" />
-						<button className="xs:text-md flex w-1/2 items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-2 text-sm text-white sm:w-64" type="submit">
+					<form className="mb-5 mt-5 flex flex-col gap-3 sm:flex-row">
+						<div className="relative w-full">
+							<div className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3.5">
+								<FaRegEnvelope className="text-gray-400" />
+							</div>
+							<input type="email" className="m-0 h-14 w-full appearance-none rounded-md px-4 ps-10 text-gray-400 ring-1 ring-gray-300 dark:bg-gray-300 dark:text-gray-800" placeholder="Enter Work email" autoComplete="email" required />
+						</div>
+
+						<button className="xs:text-md text-md flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-8 py-4 text-white sm:w-64" type="submit">
 							Sign Up Free
 							<FaArrowRight />
 						</button>
