@@ -3,7 +3,8 @@ import SecondaryButton from './SecondaryButton'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FaArrowRight } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { RxHamburgerMenu } from 'react-icons/rx'
+import { RxCross1, RxHamburgerMenu } from 'react-icons/rx'
+import { ImCross } from 'react-icons/im'
 
 const Navbar = () => {
 	const navLinks = ['Products', 'Solutions', 'Services', 'Help Center']
@@ -12,11 +13,11 @@ const Navbar = () => {
 			<div className="container relative mx-auto px-7 text-sm sm:px-2">
 				<div className="flex items-center justify-between">
 					<div className="flex flex-shrink-0 items-center">
-						<span className="text-xl font-bold xs:text-2xl sm:text-4xl dark:text-white">
+						<span className="text-xl font-bold dark:text-white xs:text-2xl sm:text-4xl">
 							<Link to="/">magnifico</Link>
 						</span>
 					</div>
-					<ul className="ml-14 hidden space-x-12 font-medium tracking-wide lg:flex dark:text-white">
+					<ul className="ml-14 hidden space-x-12 font-medium tracking-wide dark:text-white lg:flex">
 						{navLinks.map((link) => (
 							<li key={link}>
 								<button className="flex items-center gap-2">
@@ -39,7 +40,8 @@ const Navbar = () => {
 					<label className="cursor-pointer sm:hidden">
 						<input type="checkbox" className="peer sr-only" />
 						<div className="group relative flex w-full">
-							<RxHamburgerMenu className="size-7 dark:text-white" />
+							<RxHamburgerMenu className="size-7 peer-checked:group-[]:hidden dark:text-white" />
+							<RxCross1 className="hidden size-7 peer-checked:group-[]:block dark:text-white" />
 							<ul className="absolute -right-10 top-10 z-50 ml-14 hidden w-screen flex-col items-center justify-center bg-white text-xl font-medium tracking-wide shadow-xl transition-all duration-150 ease-in-out peer-checked:group-[]:flex sm:space-x-12">
 								{navLinks.map((link) => (
 									<li key={link} className="duration-50 flex h-14 w-full justify-center transition-colors ease-in-out hover:bg-gray-400 hover:text-white peer-checked:group-[]:flex">
