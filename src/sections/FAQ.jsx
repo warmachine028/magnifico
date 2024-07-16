@@ -7,8 +7,8 @@ const FAQ = () => {
 			<ChatBanner />
 			<Questions />
 			<div className="sm:hidden">
-				<h6 className="text-3xl font-medium">Frequently asked questions</h6>
-				<p className="py-5 text-xl font-light text-gray-700">Here are some of our most asked questions. </p>
+				<h6 className="text-3xl font-medium dark:text-blue-700">Frequently asked questions</h6>
+				<p className="py-5 text-xl font-light text-gray-700 dark:text-gray-600">Here are some of our most asked questions. </p>
 			</div>
 		</section>
 	)

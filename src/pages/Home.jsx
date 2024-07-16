@@ -2,14 +2,16 @@ import { Community, Hero, ImproveWorkflow, ProblemSolved, TimeWorking, Tools } f
 
 const Home = () => {
 	return (
-		<main className="font-roboto">
-			<Hero />
-			<hr className="hidden sm:block" />
-			<TimeWorking />
-			<Tools />
-			<ProblemSolved />
-			<ImproveWorkflow />
-			<Community />
+		<main className="dark:bg-slate-900">
+			<div className="mx-auto sm:container sm:px-2">
+				<Hero />
+				<hr className="hidden sm:block" />
+				<TimeWorking />
+				<Tools />
+				<ProblemSolved />
+				<ImproveWorkflow />
+				<Community />
+			</div>
 		</main>
 	)
 }

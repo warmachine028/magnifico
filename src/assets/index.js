@@ -1,7 +1,6 @@
 export { default as ArtVenue } from './artvenue.png'
 export { default as CircleOfNetworks } from './circleofnetworks.png'
 export { default as Container } from './container.png'
-export { default as EnvelopeIcon } from './envelope-regular-24.png'
 export { default as Pic1 } from './pic1.png'
 export { default as Pic2 } from './pic2.png'
 export { default as Pic3 } from './pic3.png'
