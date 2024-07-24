@@ -69,10 +69,6 @@
 
 ![line]
 
-**<img width="10" src="https://img.icons8.com/?size=100&id=DbZhJARl07o2&format=png&color=000000"> Pritam, 2024**
-
-![line]
-
 ## Thank you, everyone 💚
 
 [markdown badges]: https://github.com/Ileriayo/markdown-badges
