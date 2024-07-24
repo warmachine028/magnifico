@@ -54,7 +54,8 @@
 
 ## Preview
 
-# ![VirtualR](https://github.com/user-attachments/assets/4116093c-5207-49cd-9fd2-3fa645ab01b2)
+# ![Magnifico](https://github.com/user-attachments/assets/33a17933-5ded-406c-9d63-a42a7bc6fb4a)
+
 
 ![line]
 
