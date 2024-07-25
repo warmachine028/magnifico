@@ -68,9 +68,13 @@
     </a>
 </div>
 
-<div display="flex" direction="flex-row">
-    <img src="https://img.icons8.com/?size=30&id=x8PWa4ZypXUE&format=png&color=000000"> <p>Pritam, 2024</p>
+<div>
+    <img src="https://img.icons8.com/?size=30&id=x8PWa4ZypXUE&format=png&color=000000"> 
+    Pritam, 2024
 </div>
+    
+  
+
 
 ![line]
 
