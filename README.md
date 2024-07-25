@@ -21,6 +21,7 @@
 - [Tech Stack Used](#tech-stack-used)
 - [Preview](#preview)
 - [Best Contributors](#best-contributors)
+- [License](#license)
 
 ![line]
 
