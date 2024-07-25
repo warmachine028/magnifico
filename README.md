@@ -10,6 +10,7 @@
     </a>
 </div>
 
+## [Magnifico](https://magnifico-sp.vercel.app/)
 
 ![line]
 
