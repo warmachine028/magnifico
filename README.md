@@ -74,7 +74,7 @@
 
 -   see [LICENSE]
 
-**Pritam, 2023**
+**Pritam, 2024**
 
 [license]: https://github.com/warmachine028/magnifico/blob/main/LICENSE
 
