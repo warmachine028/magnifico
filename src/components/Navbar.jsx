@@ -9,7 +9,7 @@ import { ImCross } from 'react-icons/im'
 const Navbar = () => {
 	const navLinks = ['Products', 'Solutions', 'Services', 'Help Center']
 	return (
-		<nav className="sticky top-0 z-50 flex h-20 items-center border-b bg-white py-3 font-roboto dark:bg-slate-900">
+		<nav className="sticky top-0 z-50 flex h-20 items-center border-b bg-white py-3 xl:px-8 font-roboto dark:bg-slate-900">
 			<div className="container relative mx-auto px-7 text-sm sm:px-2">
 				<div className="flex items-center justify-between">
 					<div className="flex flex-shrink-0 items-center">
