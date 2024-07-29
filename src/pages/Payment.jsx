@@ -8,7 +8,7 @@ const Payment = () => {
 			<Helmet>
 				<meta charSet="utf-8" />
 				<title>Magnifico-Payments</title>
-				<link rel="canonical" href="https://magnifico-sp.vercel.app/" />
+				<link rel="canonical" href="https://magnifico-sp.vercel.app/payment" />
 			</Helmet>
 			<div className="sticky left-0 top-20 z-40 flex w-full justify-center bg-blue-600 p-3 text-center text-white sm:hidden">Holding your tickets for 30:00</div>
 			<div className="mx-auto pb-14 font-sans sm:container sm:flex sm:flex-col sm:px-14 sm:py-16">
