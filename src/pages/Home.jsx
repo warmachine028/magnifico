@@ -7,7 +7,7 @@ const Home = () => {
 			<Helmet>
 				<meta charSet="utf-8" />
 				<title>Magnifico-Home</title>
-				<link rel="canonical" href="http://mysite.com/example" />
+				<link rel="canonical" href="https://magnifico-sp.vercel.app/" />
 			</Helmet>
 			<div className="mx-auto sm:container sm:px-2 xl:px-10">
 				<Hero />
