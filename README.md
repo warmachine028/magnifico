@@ -1,4 +1,4 @@
-    updated on: 24th July 2024, Wednesday
+    updated on: 29th July 2024, Monday
 
 <div align=center>
     <a href="https://github.com/warmachine028/magnifico">
@@ -56,7 +56,8 @@
 
 ## Preview
 
-# ![Magnifico](https://github.com/user-attachments/assets/33a17933-5ded-406c-9d63-a42a7bc6fb4a)
+![Magnifico](https://github.com/user-attachments/assets/44078aaf-5da1-4809-88f1-495a6cd6823a)
+
 
 
 ![line]
