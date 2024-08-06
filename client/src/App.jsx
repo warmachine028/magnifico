@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { AppRouter, Footer, Navbar } from './components'
 import { IoSunnySharp } from 'react-icons/io5'
 import { FaMoon } from 'react-icons/fa'
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
 	const [darkMode, setDarkMode] = useState(false)
@@ -10,6 +11,8 @@ const App = () => {
 		setDarkMode((darkMode) => !darkMode)
 	}
 	return (
+		<BrowserRouter basename="magnifico">
+
 		<div className={`${darkMode && 'dark'}`}>
 			<Navbar />
 			<AppRouter />
@@ -18,6 +21,8 @@ const App = () => {
 			</button>
 			<Footer />
 		</div>
+
+		</BrowserRouter>
 	)
 }
 
