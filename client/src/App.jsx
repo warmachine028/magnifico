@@ -12,7 +12,6 @@ const App = () => {
 	}
 	return (
 		<BrowserRouter basename="magnifico">
-
 		<div className={`${darkMode && 'dark'}`}>
 			<Navbar />
 			<AppRouter />
@@ -21,7 +20,6 @@ const App = () => {
 			</button>
 			<Footer />
 		</div>
-
 		</BrowserRouter>
 	)
 }
