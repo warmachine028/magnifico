@@ -1,0 +1,59 @@
+{
+	"name": "magnifico",
+	"version": "0.1.0",
+	"description": "A sleek and responsive website.",
+	"main": "src/main.jsx",
+	"type": "module",
+	"private": true,
+	"author": {
+		"name": "Pritam Kundu",
+		"email": "warmachine028@outlook.com",
+		"url": "https://github.com/warmachine028"
+	},
+	"contributors": [
+		{
+			"name": "Srija Adhya",
+			"email": "srijaadhya.11sc.2020@gmail.com",
+			"url": "https://github.com/srijaadhya12"
+		}
+	],
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-helmet": "^6.1.0",
+		"react-icons": "^5.2.1",
+		"react-router-dom": "^6.24.1"
+	},
+	"devDependencies": {
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"autoprefixer": "^10.4.19",
+		"eslint": "^8.57.0",
+		"eslint-plugin-react": "^7.34.2",
+		"eslint-plugin-react-hooks": "^4.6.2",
+		"eslint-plugin-react-refresh": "^0.4.7",
+		"postcss": "^8.4.39",
+		"prettier": "^3.3.2",
+		"prettier-plugin-tailwindcss": "^0.6.5",
+		"tailwindcss": "^3.4.4",
+		"vite": "^5.3.1"
+	},
+	"homepage": "https://magnifico-sp.vercel.app",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/warmachine028/magnifico.git"
+	},
+	"keywords": [
+		"react",
+		"tailwind",
+		"react-icons",
+		"vite"
+	]
+}
