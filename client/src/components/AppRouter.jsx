@@ -4,7 +4,7 @@ import { Home, Payment } from '../pages'
 const AppRouter = () => {
 	const location = useLocation()
 	return (
-		<Routes>
+		<Routes location={location}>
 			<Route path="/" element={<Home />} />
 			<Route path="/payment" element={<Payment />} />
 		</Routes>
