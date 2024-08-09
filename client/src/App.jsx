@@ -12,14 +12,17 @@ const App = () => {
 	}
 	return (
 		<BrowserRouter basename="magnifico">
-		<div className={`${darkMode && 'dark'}`}>
-			<Navbar />
-			<AppRouter />
-			<button onClick={toggleDarkMode} className="fixed bottom-9 end-5 z-50 float-start flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900 text-white sm:bottom-40 sm:end-20 sm:h-14 sm:w-14 dark:bg-white dark:text-black">
-				{darkMode ? <IoSunnySharp /> : <FaMoon />}
-			</button>
-			<Footer />
-		</div>
+			<div className={`${darkMode && 'dark'}`}>
+				<Navbar />
+				<AppRouter />
+				<button
+					onClick={toggleDarkMode}
+					className="fixed  float-start bottom-9 end-5 z-50  flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900 text-white sm:bottom-40 sm:end-20 sm:h-14 sm:w-14 dark:bg-white dark:text-black"
+				>
+					{darkMode ? <IoSunnySharp /> : <FaMoon />}
+				</button>
+				<Footer />
+			</div>
 		</BrowserRouter>
 	)
 }
