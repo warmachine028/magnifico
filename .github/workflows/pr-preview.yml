@@ -1,0 +1,40 @@
+# .github/workflows/preview.yml
+name: 🌐 PR previews
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@main
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@main
+        with:
+            node-version: 20
+            cache: 'npm'
+            cache-dependency-path: client/package-lock.json
+
+      - name: Install and Build
+        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+        run: |
+          cd client
+          npm i
+          npm run build
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+            preview-branch: main 
+            source-dir: client/dist
+    
