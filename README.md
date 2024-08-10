@@ -16,7 +16,7 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction) #changes
+- [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Developement](#developement)
 - [Tech Stack Used](#tech-stack-used)
