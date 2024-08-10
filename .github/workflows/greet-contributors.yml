@@ -6,7 +6,10 @@ on:
         types: [opened]
     pull_request_target:
         types: [opened]
-
+   
+permissions:
+    pull-requests: write
+ 
 jobs:
     greet:
         runs-on: ubuntu-latest
