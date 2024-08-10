@@ -35,8 +35,9 @@
 ## Developement
 
 ```sh
-> npm i
-> npm run dev
+$> cd client
+$> npm i       # install all packages
+$> npm run dev # run the frontend
 ```
 
 ![line]
