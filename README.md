@@ -2,7 +2,7 @@
 
 <div align=center>
     <a href="https://github.com/warmachine028/magnifico">
-        <img width="200" src="https://img.icons8.com/?size=1000&id=46874" alt="magnifico">
+        <img width="200" src="https://cdn-icons-png.flaticon.com/512/594/594856.png" alt="magnifico">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A sleek and responsive website </p>
     <a src="https://github.com/warmachine028/magnifico/forks">
