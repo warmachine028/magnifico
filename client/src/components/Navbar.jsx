@@ -14,7 +14,7 @@ const Navbar = () => {
 				<div className="flex items-center justify-between">
 					<div className="flex flex-shrink-0 items-center">
 						<span className="text-xl font-bold dark:text-white xs:text-2xl sm:text-4xl">
-							<Link to="/">magnifico</Link>
+							<Link to="/">magnifico - test</Link>
 						</span>
 					</div>
 					<ul className="ml-14 hidden space-x-12 font-medium tracking-wide dark:text-white lg:flex">
