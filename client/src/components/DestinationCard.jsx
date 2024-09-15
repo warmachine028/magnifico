@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle, IoMdTrophy } from 'react-icons/io'
 const DestinationCard = () => {
 	return (
-		<aside className="flex max-h-[750px] w-full max-w-screen-sm flex-col rounded-xl border p-2 sm:max-w-sm dark:bg-gray-300">
+		<aside className="flex max-h-[750px] w-full max-w-screen-sm flex-col rounded-xl border p-2 sm:max-w-sm">
 			<div className="relative flex flex-col p-1">
 				<div className="absolute left-4 top-3 flex items-center gap-1 rounded-md bg-white p-2 text-sm font-medium">
 					<IoMdTrophy />
@@ -21,13 +21,15 @@ const DestinationCard = () => {
 				</button>
 				<img className="h-48 w-full rounded-lg object-cover" src={Mountain} alt="Mountain" />
 			</div>
-			<div className="p-2">
+			<div className="p-2 dark:text-white">
 				<h6 className="flex items-center font-light text-gray-500">
 					<FaStar className="text-red-600" />
-					<span className="px-1 font-semibold text-black">4.9</span>
+					<span className="px-1 font-semibold text-black dark:text-white">4.9</span>
 					(4.5k) . category
 				</h6>
-				<h6 className="pb-4 pt-2 font-semibold">Amsterdam open boat canal cruise - Live Guiye - from Anne Frank Housef</h6>
+				<h6 className="pb-4 pt-2 font-semibold">
+					Amsterdam open boat canal cruise - Live Guiye - from Anne Frank Housef
+				</h6>
 				<div className="flex items-center gap-2">
 					<PiTicketFill />
 					<h6 className="font-semibold">ticket type - variant</h6>
@@ -48,10 +50,10 @@ const DestinationCard = () => {
 				</div>
 				<hr className="border-dashed" />
 				<div className="my-6 flex items-center justify-between">
-					<Link to="#" className="text-gray-700 underline decoration-gray-400">
+					<Link to="#" className="text-gray-700 underline decoration-gray-400 dark:text-gray-400">
 						View payment summary
 					</Link>
-					<FaPlus className="text-gray-700" />
+					<FaPlus className="cursor-pointer text-gray-700" />
 				</div>
 				<hr />
 				<div className="flex items-center justify-between">
@@ -63,12 +65,15 @@ const DestinationCard = () => {
 					<p className="p-1 text-sm text-green-700 dark:text-green-700">You saved price</p>
 				</div>
 				<div className="flex items-center gap-2 py-4">
-					<Link to="#" className="text-sm text-gray-700 underline decoration-gray-400">
+					<Link to="#" className="text-sm text-gray-700 underline decoration-gray-400 dark:text-gray-400">
 						You will be charged in AED
 					</Link>
 					<div className="group relative">
 						<PiInfoBold className="size-5 cursor-pointer text-gray-500" />
-						<span className="absolute bottom-3 m-2 w-52 min-w-10 scale-0 break-words rounded-md bg-gray-100 p-2 text-xs font-medium text-gray-600 shadow-md transition-all duration-100 group-hover:scale-100">The amount you will be required to pay for a product or service will be calculated and billed in the currency of the United Arab Emirates</span>
+						<span className="absolute bottom-3 m-2 w-52 min-w-10 scale-0 break-words rounded-md bg-gray-100 p-2 text-xs font-medium text-gray-600 shadow-md transition-all duration-100 group-hover:scale-100">
+							The amount you will be required to pay for a product or service will be calculated and
+							billed in the currency of the United Arab Emirates
+						</span>
 					</div>
 				</div>
 			</div>
