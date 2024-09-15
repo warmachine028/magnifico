@@ -1,4 +1,3 @@
-import React from 'react'
 import { Question } from '../components'
 
 const Questions = () => {

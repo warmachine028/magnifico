@@ -1,6 +1,8 @@
 {
     "depcheck": {
         "ignoreMatches": [
+            "@types/react",
+            "@types/react-dom",
             "prettier",
             "prettier-plugin-tailwindcss",
             "postcss",
