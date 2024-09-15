@@ -1,5 +1,6 @@
 export { default as AppRouter } from './AppRouter'
 export { default as Navbar } from './Navbar'
+export { default as ThemeFAB } from './ThemeFAB'
 export { default as SecondaryButton } from './SecondaryButton'
 export { default as DestinationCard } from './DestinationCard'
 export { default as CreditCardForm } from './CreditCardForm'
