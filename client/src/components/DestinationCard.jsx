@@ -5,21 +5,36 @@ import { HiClock } from 'react-icons/hi'
 import { FaUserGroup } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle, IoMdTrophy } from 'react-icons/io'
+import { BsCircleFill } from 'react-icons/bs'
+
 const DestinationCard = () => {
 	return (
 		<aside className="flex max-h-[750px] w-full max-w-screen-sm flex-col rounded-xl border p-2 sm:max-w-sm">
-			<div className="relative flex flex-col p-1">
+			<div className="group relative flex flex-col p-1">
 				<div className="absolute left-4 top-3 flex items-center gap-1 rounded-md bg-white p-2 text-sm font-medium">
 					<IoMdTrophy />
 					Bestseller
 				</div>
-				<button className="absolute start-0 top-1/2 -translate-x-0.5 -translate-y-3 transform ps-3.5 text-white transition-all hover:scale-125 sm:block">
-					<IoIosArrowDropleftCircle className="size-8" />
-				</button>
-				<button className="absolute end-0 top-1/2 -translate-x-0.5 -translate-y-3 pe-3.5 text-white transition-all hover:scale-125 sm:block">
-					<IoIosArrowDroprightCircle className="size-8" />
-				</button>
+				<div className="opacity-0 transition-opacity delay-150 duration-300 ease-in-out group-hover:opacity-100">
+					<button className="absolute start-0 top-1/2 -translate-x-0.5 -translate-y-3 transform ps-3.5 text-white transition-all hover:scale-125 sm:block">
+						<IoIosArrowDropleftCircle className="size-8" />
+					</button>
+					<button className="absolute end-0 top-1/2 -translate-x-0.5 -translate-y-3 pe-3.5 text-white transition-all hover:scale-125 sm:block">
+						<IoIosArrowDroprightCircle className="size-8" />
+					</button>
+					<div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 items-center gap-1.5 text-white">
+						{[1, 2, 3, 4, 5, 6].map((page) => (
+							<button>
+								<BsCircleFill
+									className="size-2 transition duration-100 ease-in-out hover:scale-150"
+									key={page}
+								/>
+							</button>
+						))}
+					</div>
+				</div>
 				<img className="h-48 w-full rounded-lg object-cover" src={Mountain} alt="Mountain" />
+				<div className="absolute"></div>
 			</div>
 			<div className="p-2 dark:text-white">
 				<h6 className="flex items-center font-light text-gray-500">
@@ -53,7 +68,9 @@ const DestinationCard = () => {
 					<Link to="#" className="text-gray-700 underline decoration-gray-400 dark:text-gray-400">
 						View payment summary
 					</Link>
-					<FaPlus className="cursor-pointer text-gray-700" />
+					<button>
+						<FaPlus className="text-gray-700" />
+					</button>
 				</div>
 				<hr />
 				<div className="flex items-center justify-between">
