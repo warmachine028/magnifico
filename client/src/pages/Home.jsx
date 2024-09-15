@@ -6,7 +6,7 @@ const Home = () => {
 		<main className="dark:bg-slate-900">
 			<Helmet>
 				<meta charSet="utf-8" />
-				<title>Magnifico-Home</title>
+				<title>Magnifico | Home</title>
 				<link rel="canonical" href="https://warmachine028.github.io/magnifico/" />
 			</Helmet>
 			<div className="mx-auto sm:container sm:px-2 xl:px-10">
