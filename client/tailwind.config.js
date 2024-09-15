@@ -1,20 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 import defaultTheme from 'tailwindcss/defaultTheme'
+
 export default {
+	darkMode: 'class',
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		screens: {
 			xs: '475px',
-			...defaultTheme.screens,
+			...defaultTheme.screens
 		},
 		extend: {
 			fontFamily: {
 				roboto: ['Roboto'],
 				sans: ['Open Sans'],
 				robotoserif: ['Roboto Serif']
-			},
-		},
+			}
+		}
 	},
-	plugins: [],
-	darkMode: 'class',
+	plugins: []
 }
