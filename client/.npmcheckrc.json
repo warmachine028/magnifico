@@ -1,0 +1,10 @@
+{
+    "depcheck": {
+        "ignoreMatches": [
+            "prettier",
+            "prettier-plugin-tailwindcss",
+            "postcss",
+            "autoprefixer"
+        ]
+    }
+}
