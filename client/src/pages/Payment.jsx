@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 import { DestinationCard } from '../components'
 import { PaymentHero, AdditionalInformation, PaymentMode, TotalPayable, FAQ } from '../sections'
 
