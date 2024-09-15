@@ -19,6 +19,7 @@
 - [Introduction](#introduction) 
 - [Development](#development)
 - [Tech Stack Used](#tech-stack-used)
+- [Design](#design)
 - [Preview](#preview)
 - [Best Contributors](#best-contributors)
 - [License](#license)
@@ -53,6 +54,13 @@ $> npm run dev # run the frontend
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=blue) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vite](https://img.shields.io/badge/vite-%23000000.svg?style=for-the-badge&logo=vite&logoColor=white) ![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
 
 ![line]
+
+## Design
+
+- [Figma file for Spyder 2024](https://www.figma.com/design/6lYnnVnpynejdPoqdS6dxt/SPYDER-2024?node-id=0-1&node-type=canvas&t=s1Q7nwepfp2ZU2X9-0)
+
+![line]
+
 
 ## Preview
 

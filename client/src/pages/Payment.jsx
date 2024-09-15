@@ -8,7 +8,7 @@ const Payment = () => {
 			<Helmet>
 				<meta charSet="utf-8" />
 				<title>Magnifico | Payments</title>
-				<link rel="canonical" href="https://warmachine028.github.io/magnifico/" />
+				<link rel="canonical" href="https://warmachine028.github.io/magnifico" />
 			</Helmet>
 			<div className="sticky left-0 top-20 z-40 flex w-full justify-center bg-blue-600 p-3 text-center text-white sm:hidden">
 				Holding your tickets for 30:00

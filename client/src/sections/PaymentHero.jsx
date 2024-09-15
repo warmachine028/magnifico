@@ -37,7 +37,7 @@ const PaymentHero = () => {
 					</div>
 					<input
 						type="text"
-						className="m-0 h-14 w-full appearance-none rounded-2xl px-4 ps-10 text-gray-400 ring-1 ring-gray-300 dark:bg-gray-300 dark:text-gray-800"
+						className="m-0 h-14 w-full appearance-none rounded-2xl bg-transparent px-4 ps-10 text-black ring-1 ring-gray-300 dark:text-white"
 						placeholder="Full name"
 						autoComplete="name"
 						required
@@ -54,12 +54,15 @@ const PaymentHero = () => {
 						<select
 							type="text"
 							id="input-group-1"
-							className="h-14 w-full appearance-none rounded-2xl px-4 ps-10 text-gray-400 ring-1 ring-gray-300 dark:bg-gray-300 dark:text-gray-800"
+							className="h-14 w-full appearance-none rounded-2xl bg-transparent px-4 ps-10 text-gray-400 ring-1 ring-gray-300 placeholder:text-red-600"
 							autoComplete="country"
 							defaultValue="Country code"
 							required
 						>
-							<option disabled>Country code</option>
+							<option>Country code</option>
+							<option>+92</option>
+							<option>+1</option>
+							<option disabled>+92</option>
 						</select>
 					</div>
 					<div className="relative sm:w-1/2">
@@ -70,7 +73,7 @@ const PaymentHero = () => {
 							type="text"
 							pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
 							inputMode="numeric"
-							className="m-0 h-14 w-full appearance-none rounded-2xl px-4 ps-10 text-gray-400 ring-1 ring-gray-300 dark:bg-gray-300"
+							className="m-0 h-14 w-full appearance-none rounded-2xl bg-transparent px-4 ps-10 text-black ring-1 ring-gray-300 dark:text-white"
 							placeholder="Phone number"
 							autoComplete="tel"
 							required
@@ -84,7 +87,7 @@ const PaymentHero = () => {
 						</div>
 						<input
 							type="email"
-							className="h-14 w-full rounded-2xl px-4 ps-10 text-gray-400 ring-1 ring-gray-300 dark:bg-gray-300 dark:text-gray-800"
+							className="h-14 w-full rounded-2xl bg-transparent px-4 ps-10 text-black ring-1 ring-gray-300 dark:text-white"
 							placeholder="Email"
 							autoComplete="email"
 							required
@@ -96,7 +99,7 @@ const PaymentHero = () => {
 						</div>
 						<input
 							type="email"
-							className="h-14 w-full rounded-2xl px-4 ps-10 text-gray-400 ring-1 ring-gray-300 dark:bg-gray-300 dark:text-gray-800"
+							className="h-14 w-full rounded-2xl px-4 ps-10 text-gray-400 ring-1 ring-gray-300 dark:bg-slate-900"
 							placeholder="Confirm email"
 							autoComplete="email"
 							required
