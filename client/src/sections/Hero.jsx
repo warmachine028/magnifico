@@ -5,25 +5,25 @@ const Hero = () => {
 	return (
 		<section
 			id="hero"
-			className="font-roboto flex flex-col justify-center bg-none bg-[right_30px_bottom_150px] bg-no-repeat py-28 sm:flex-row sm:py-48"
+			className="font-roboto flex flex-col justify-center bg-none bg-[right_30px_bottom_150px] bg-no-repeat py-28 lg:py-48 lg:flex-row"
 			style={{ backgroundImage: `url('${Stars}')` }}
 		>
-			<div className="flex w-full flex-col justify-center px-7 sm:mx-10 sm:w-1/2">
-				<div className="sm:w-[550px]">
-					<h1 className="hidden text-[72px] font-extrabold leading-[80px] sm:block dark:text-blue-600">
+			<div className="flex w-full flex-col justify-center px-7 lg:mx-10 lg:w-1/2">
+				<div className="lg:w-[550px]">
+					<h1 className="hidden text-[72px] font-extrabold leading-[80px] lg:block dark:text-blue-600">
 						Team projects,
 						<br />
 						done well
 					</h1>
-					<h1 className="xs:text-5xl text-4xl font-bold sm:hidden dark:text-blue-600">
+					<h1 className="xs:text-5xl text-4xl font-bold lg:hidden dark:text-blue-600">
 						Teach students worldwide
 					</h1>
 
-					<p className="mt-8 hidden leading-7 text-gray-500 sm:block">
+					<p className="mt-8 hidden leading-7 text-gray-500 lg:block">
 						The only platform that gives your team all the tools needed to work <br />
 						together on their awesome projects.{' '}
 					</p>
-					<p className="xs:text-xl my-10 text-sm leading-7 text-gray-500 sm:hidden">
+					<p className="xs:text-xl my-10 text-sm leading-7 text-gray-500 lg:hidden">
 						Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus
 						pulvinar. Nunc ipsum est pellentesque turpis ultricies.
 					</p>
@@ -58,7 +58,7 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex w-full px-7 sm:w-1/2 sm:px-10">
+			<div className="flex w-full px-7 lg:px-10 lg:w-1/2">
 				<img src={Video1} alt="video" />
 			</div>
 		</section>

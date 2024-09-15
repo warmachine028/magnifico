@@ -9,7 +9,7 @@ const Home = () => {
 				<title>Magnifico | Home</title>
 				<link rel="canonical" href="https://warmachine028.github.io/magnifico/" />
 			</Helmet>
-			<div className="mx-auto sm:container sm:px-2 xl:px-10">
+			<div className="mx-auto md:container sm:px-2 xl:px-10">
 				<Hero />
 				<hr className="hidden sm:block" />
 				<TimeWorking />
