@@ -1,7 +1,7 @@
 import { BsInfoCircleFill } from 'react-icons/bs'
 import { FaGlobeAmericas, FaPhoneAlt, FaRegEnvelope, FaUser } from 'react-icons/fa'
 import { IoIosArrowDown } from 'react-icons/io'
-import { DestinationCard } from '../components'
+import { DestinationCard } from '@/components'
 
 const PaymentHero = () => {
 	return (

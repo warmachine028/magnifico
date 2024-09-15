@@ -1,5 +1,5 @@
-import { Pic1 as image1, Pic2 as image2, Pic3 as image3, Stars } from '../assets'
-import { SecondaryButton } from '../components'
+import { Pic1 as image1, Pic2 as image2, Pic3 as image3, Stars } from '@/assets'
+import { SecondaryButton } from '@/components'
 
 const TimeWorking = () => {
 	return (

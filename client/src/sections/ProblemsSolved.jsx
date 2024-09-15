@@ -1,5 +1,5 @@
-import { SecondaryButton } from '../components'
-import { Container } from '../assets'
+import { SecondaryButton } from '@/components'
+import { Container } from '@/assets'
 
 const ProblemSolved = () => {
 	return (

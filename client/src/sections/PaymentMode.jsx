@@ -1,6 +1,6 @@
 import { IoMdCard } from 'react-icons/io'
 import { FaApplePay, FaGooglePay } from 'react-icons/fa'
-import { CreditCardForm, PaymentOption } from '../components'
+import { CreditCardForm, PaymentOption } from '@/components'
 
 const PaymentMode = () => {
 	return (

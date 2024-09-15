@@ -1,8 +1,8 @@
 import { FaArrowRight } from 'react-icons/fa'
-import { cn } from '../lib'
-const colors = { white: '#ffffff', blue: '#2563eb' }
+import { cn } from '@/lib'
 
 const SecondaryButton = ({ color, arrow, children }) => {
+	const colors = { white: '#ffffff', blue: '#2563eb' }
 	const iconColor = colors[color]
 	const textColor = color === 'white' && 'text-white'
 	return (

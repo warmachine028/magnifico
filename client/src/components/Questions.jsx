@@ -1,4 +1,4 @@
-import { Question } from '../components'
+import Question from './Question'
 
 const Questions = () => {
 	return (

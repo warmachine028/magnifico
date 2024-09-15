@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async'
-import { Community, Hero, ImproveWorkflow, ProblemSolved, TimeWorking, Tools } from '../sections'
+import { Community, Hero, ImproveWorkflow, ProblemSolved, TimeWorking, Tools } from '@/sections'
 
 const Home = () => {
 	return (

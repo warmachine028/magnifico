@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
-import { DestinationCard } from '../components'
-import { PaymentHero, AdditionalInformation, PaymentMode, TotalPayable, FAQ } from '../sections'
+import { DestinationCard } from '@/components'
+import { PaymentHero, AdditionalInformation, PaymentMode, TotalPayable, FAQ } from '@/sections'
 
 const Payment = () => {
 	return (

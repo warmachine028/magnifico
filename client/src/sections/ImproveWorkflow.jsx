@@ -1,5 +1,5 @@
-import { Video2 } from '../assets'
-import { SecondaryButton } from '../components'
+import { Video2 } from '@/assets'
+import { SecondaryButton } from '@/components'
 
 const ImproveWorkflow = () => {
 	return (

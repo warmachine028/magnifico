@@ -1,4 +1,4 @@
-import { HeadPhones } from '../assets'
+import { HeadPhones } from '@/assets'
 
 const ChatBanner = () => {
 	return (

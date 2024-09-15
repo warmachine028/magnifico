@@ -1,5 +1,5 @@
 import { FaArrowRight, FaRegEnvelope } from 'react-icons/fa'
-import { Shells, SmartFinder, ArtVenue, Waves, Video1, Stars } from '../assets'
+import { Shells, SmartFinder, ArtVenue, Waves, Video1, Stars } from '@/assets'
 
 const Hero = () => {
 	return (

@@ -1,4 +1,4 @@
-import { DinersClub, MasterCard, Visa } from '../assets'
+import { DinersClub, MasterCard, Visa } from '@/assets'
 import { PiInfoBold, PiPiggyBankFill } from 'react-icons/pi'
 import { MdLock } from 'react-icons/md'
 import { IoMdCard } from 'react-icons/io'

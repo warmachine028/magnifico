@@ -1,5 +1,5 @@
-import { CircleOfNetworks as image1 } from '../assets'
-import { SecondaryButton } from '../components'
+import { CircleOfNetworks as image1 } from '@/assets'
+import { SecondaryButton } from '@/components'
 
 const Tools = () => {
 	return (

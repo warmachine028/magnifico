@@ -1,4 +1,4 @@
-import { ChatBanner, Questions } from '../components'
+import { ChatBanner, Questions } from '@/components'
 
 const Faq = () => {
 	return (

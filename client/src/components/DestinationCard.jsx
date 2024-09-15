@@ -1,5 +1,5 @@
 import { PiInfoBold, PiPiggyBankFill, PiTicketFill } from 'react-icons/pi'
-import { Mountain, Beach } from '../assets'
+import { Mountain, Beach } from '@/assets'
 import { FaCalendar, FaPlus, FaStar } from 'react-icons/fa'
 import { HiClock } from 'react-icons/hi'
 import { FaUserGroup } from 'react-icons/fa6'
