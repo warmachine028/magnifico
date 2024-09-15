@@ -17,7 +17,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction) 
-- [Developement](#developement)
+- [Development](#development)
 - [Tech Stack Used](#tech-stack-used)
 - [Preview](#preview)
 - [Best Contributors](#best-contributors)
@@ -32,7 +32,7 @@
 
 ![line]
 
-## Developement
+## Development
 
 ```sh
 $> cd client
@@ -56,7 +56,11 @@ $> npm run dev # run the frontend
 
 ## Preview
 
-![Snapshot](.github/preview.png)
+<picture align="center">
+    <source media="(prefers-color-scheme: light)" srcset=".github/preview-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset=".github/preview-dark.png">
+    <img src=".github/preview-light.png" alt="preview">
+</picture>
 
 ![line]
 
