@@ -7,9 +7,8 @@ import { BrowserRouter } from 'react-router-dom'
 const App = () => {
 	const [darkMode, setDarkMode] = useState(false)
 
-	const toggleDarkMode = () => {
-		setDarkMode((darkMode) => !darkMode)
-	}
+	const toggleDarkMode = () => setDarkMode((darkMode) => !darkMode)
+
 	return (
 		<BrowserRouter basename="magnifico">
 			<div className={`${darkMode && 'dark'}`}>
@@ -17,7 +16,7 @@ const App = () => {
 				<AppRouter />
 				<button
 					onClick={toggleDarkMode}
-					className="fixed  float-start bottom-9 end-5 z-50  flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900 text-white sm:bottom-40 sm:end-20 sm:h-14 sm:w-14 dark:bg-white dark:text-black"
+					className="fixed bottom-9 end-5 z-50 float-start flex size-10 items-center justify-center rounded-full bg-neutral-900 text-white sm:bottom-20 sm:end-20 sm:h-14 sm:w-14 dark:bg-white dark:text-black"
 				>
 					{darkMode ? <IoSunnySharp /> : <FaMoon />}
 				</button>
