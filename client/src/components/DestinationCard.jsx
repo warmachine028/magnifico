@@ -13,10 +13,10 @@ const DestinationCard = () => {
 					<IoMdTrophy />
 					Bestseller
 				</div>
-				<button className="absolute start-0 top-1/2 hidden -translate-x-0.5 -translate-y-3 transform ps-3.5 text-white transition-all hover:scale-125 sm:block">
+				<button className="absolute start-0 top-1/2 -translate-x-0.5 -translate-y-3 transform ps-3.5 text-white transition-all hover:scale-125 sm:block">
 					<IoIosArrowDropleftCircle className="size-8" />
 				</button>
-				<button className="absolute end-0 top-1/2 hidden -translate-x-0.5 -translate-y-3 pe-3.5 text-white transition-all hover:scale-125 sm:block">
+				<button className="absolute end-0 top-1/2 -translate-x-0.5 -translate-y-3 pe-3.5 text-white transition-all hover:scale-125 sm:block">
 					<IoIosArrowDroprightCircle className="size-8" />
 				</button>
 				<img className="h-48 w-full rounded-lg object-cover" src={Mountain} alt="Mountain" />
