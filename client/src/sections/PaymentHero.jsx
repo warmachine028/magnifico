@@ -60,7 +60,7 @@ const PaymentHero = () => {
 							required
 						>
 							<option>Country code</option>
-							<option>+92</option>
+							<option>+91</option>
 							<option>+1</option>
 							<option disabled>+92</option>
 						</select>

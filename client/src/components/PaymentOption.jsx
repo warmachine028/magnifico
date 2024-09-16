@@ -11,7 +11,7 @@ const PaymentOption = ({ children, name, icon, disabled, defaultChecked }) => {
 				type="radio"
 				defaultChecked={defaultChecked}
 			/>
-			<div className="group relative my-5 cursor-pointer rounded-2xl bg-gray-100 px-7 py-5 ring-1 ring-gray-300 peer-checked:bg-transparent peer-checked:ring-gray-700 peer-disabled:cursor-not-allowed dark:bg-slate-800">
+			<div className="no-scrollbar group relative my-5 h-[72px] cursor-pointer overflow-auto rounded-2xl bg-gray-100 px-7 py-5 ring-1 ring-gray-300 transition-[height] duration-500 ease-in-out peer-checked:h-[793px] peer-checked:bg-transparent peer-checked:ring-gray-700 peer-disabled:cursor-not-allowed sm:peer-checked:h-[645px] dark:bg-slate-800">
 				<div className="relative flex items-center gap-4">
 					<div className="flex h-8 items-center justify-center rounded-lg border px-2 text-gray-600 peer-checked:group-[]:text-black peer-disabled:group-[]:border-0 peer-disabled:group-[]:bg-gray-200 peer-disabled:group-[]:text-gray-400 dark:peer-checked:group-[]:text-white dark:peer-disabled:group-[]:bg-slate-700">
 						{icon}
