@@ -2,13 +2,13 @@ import { Link, NavLink } from 'react-router-dom'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FaArrowRight } from 'react-icons/fa'
 import SecondaryButton from './SecondaryButton'
-import DropDown from './DropDown'
+import Dropdown from './Dropdown'
 
 const Navbar = () => {
 	const navLinks = ['Products', 'Solutions', 'Services', 'Help Center']
 	return (
 		<nav className="font-roboto sticky top-0 z-50 flex h-20 items-center border-b bg-white py-3 xl:px-8 dark:bg-slate-900">
-			<div className="relative sm:static mx-auto w-full px-7 text-sm md:container sm:px-2">
+			<div className="relative mx-auto w-full px-7 text-sm md:container sm:static sm:px-2">
 				<div className="flex items-center justify-between">
 					<div className="flex flex-shrink-0 items-center">
 						<span className="xs:text-2xl text-xl font-bold lg:text-4xl dark:text-white">
@@ -35,7 +35,7 @@ const Navbar = () => {
 							<FaArrowRight />
 						</button>
 					</div>
-					<DropDown links={navLinks} />
+					<Dropdown links={navLinks} />
 				</div>
 			</div>
 		</nav>

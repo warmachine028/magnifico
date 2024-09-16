@@ -2,8 +2,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 import { RxCross1, RxHamburgerMenu } from 'react-icons/rx'
 import { NavLink } from 'react-router-dom'
 
-
-const DropDown = ({ links }) => {
+const Dropdown = ({ links }) => {
 	return (
 		<label className="cursor-pointer lg:hidden">
 			<input type="checkbox" className="peer sr-only" />
@@ -31,4 +30,4 @@ const DropDown = ({ links }) => {
 	)
 }
 
-export default DropDown
+export default Dropdown
