@@ -45,7 +45,7 @@ const CreditCardForm = () => {
 							</div>
 							<input
 								type="numeric"
-								className="h-14 w-full rounded-2xl bg-transparent px-4 ps-10  ring-1 ring-gray-400 dark:text-white"
+								className="h-14 w-full rounded-2xl bg-transparent px-4 ps-10 ring-1 ring-gray-400 dark:text-white"
 								placeholder="Card Number"
 								autoComplete="cc-number"
 								required

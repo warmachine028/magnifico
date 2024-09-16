@@ -9,7 +9,7 @@ const Dropdown = ({ links }) => {
 			<div className="group flex">
 				<RxHamburgerMenu className="size-7 peer-checked:group-[]:hidden dark:text-white" />
 				<RxCross1 className="hidden size-7 peer-checked:group-[]:block dark:text-white" />
-				<ul className="absolute right-0 md:top-14 top-10 z-50 ml-14 hidden w-screen flex-col items-center justify-center bg-white text-xl font-medium tracking-wide shadow-xl transition-all duration-150 ease-in-out peer-checked:group-[]:flex dark:bg-slate-900 dark:text-white">
+				<ul className="absolute right-0 top-10 z-50 ml-14 hidden w-screen flex-col items-center justify-center bg-white text-xl font-medium tracking-wide shadow-xl transition-all duration-150 ease-in-out peer-checked:group-[]:flex md:top-14 dark:bg-slate-900 dark:text-white">
 					{links.map((link) => (
 						<li
 							key={link}

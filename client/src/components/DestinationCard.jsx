@@ -79,7 +79,7 @@ const DestinationCard = () => {
 					<h6 className="py-4 font-semibold">Total payable</h6>
 					<h6 className="font-semibold">$XXX</h6>
 				</div>
-				<div className="flex w-40 items-center justify-center rounded-xl bg-green-200 ">
+				<div className="flex w-40 items-center justify-center rounded-xl bg-green-200">
 					<PiPiggyBankFill className="text-green-600" />
 					<p className="p-1 text-sm text-green-700">You saved price</p>
 				</div>

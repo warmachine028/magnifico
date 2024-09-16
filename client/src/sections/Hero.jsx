@@ -5,7 +5,7 @@ const Hero = () => {
 	return (
 		<section
 			id="hero"
-			className="font-roboto flex flex-col justify-center bg-none bg-[right_30px_bottom_150px] bg-no-repeat py-28 lg:py-48 lg:flex-row"
+			className="font-roboto flex flex-col justify-center bg-none bg-[right_30px_bottom_150px] bg-no-repeat py-28 lg:flex-row lg:py-48"
 			style={{ backgroundImage: `url('${Stars}')` }}
 		>
 			<div className="flex w-full flex-col justify-center px-7 lg:mx-10 lg:w-1/2">
@@ -58,7 +58,7 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex w-full px-7 lg:px-10 lg:w-1/2">
+			<div className="flex w-full px-7 lg:w-1/2 lg:px-10">
 				<img src={Video1} alt="video" />
 			</div>
 		</section>
