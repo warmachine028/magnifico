@@ -1,4 +1,4 @@
-    updated on: 14th January 2025, Tuesday
+    updated on: 15th January 2025, Wednesday
 
 <div align=center>
     <a href="https://github.com/warmachine028/magnifico">
@@ -97,4 +97,4 @@ $> npm run dev # run the frontend
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 [License]: https://github.com/warmachine028/magnifico/blob/main/LICENSE
 
-<!-- 14/01/25 -->
+<!-- 15/01/25 -->
