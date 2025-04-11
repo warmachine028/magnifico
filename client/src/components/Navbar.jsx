@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FaArrowRight } from 'react-icons/fa'
 import SecondaryButton from './SecondaryButton'

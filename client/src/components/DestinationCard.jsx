@@ -3,7 +3,7 @@ import { Mountain, Beach } from '@/assets'
 import { FaCalendar, FaPlus, FaStar } from 'react-icons/fa'
 import { HiClock } from 'react-icons/hi'
 import { FaUserGroup } from 'react-icons/fa6'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle, IoMdTrophy } from 'react-icons/io'
 import { BsCircleFill } from 'react-icons/bs'
 
