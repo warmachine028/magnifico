@@ -33,7 +33,7 @@ jobs:
             - name: Install dependencies
               run: |
                   cd client
-                  npm i
+                  npm i --legacy-peer-deps
 
             - name: Build App
               run: |
