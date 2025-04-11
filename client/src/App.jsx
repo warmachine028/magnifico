@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { AppRouter, Footer, Navbar, ThemeFAB } from './components'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router'
 import { HelmetProvider } from 'react-helmet-async'
 
 const Magnifico = () => {

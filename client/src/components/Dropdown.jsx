@@ -1,6 +1,6 @@
 import { IoIosArrowDown } from 'react-icons/io'
 import { RxCross1, RxHamburgerMenu } from 'react-icons/rx'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router'
 
 const Dropdown = ({ links }) => {
 	return (
