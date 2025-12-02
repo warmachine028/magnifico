@@ -47,7 +47,7 @@
 		"prettier": "^3.7.2",
 		"prettier-plugin-tailwindcss": "^0.7.1",
 		"tailwindcss": "^4.1.17",
-		"vite": "^7.2.4"
+		"vite": "^7.2.6"
 	},
 	"homepage": "https://warmachine028.github.io/magnifico",
 	"repository": {
